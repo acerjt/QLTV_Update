@@ -1,0 +1,118 @@
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.Resources.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\Utility.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\Utility.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\bin\Debug\Utility.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CopyComplete
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\Utility.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.Resources.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\Utility.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DAL.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\Utility.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\bin\Debug\Utility.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.Resources.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CopyComplete
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_BUS\obj\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.Resources.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.exe
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.exe
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.pdb
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.xml
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.pdb
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.xml
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.Resources.resources
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CopyComplete
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_BUS.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DAL.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\QLTV_DTO.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\bin\Debug\Utility.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbprojAssemblyReference.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.Resources.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.GenerateResource.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CoreCompileInputs.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CopyComplete
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.pdb

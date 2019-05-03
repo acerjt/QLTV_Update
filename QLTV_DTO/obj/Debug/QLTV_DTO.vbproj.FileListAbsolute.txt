@@ -1,0 +1,59 @@
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.Resources.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.Resources.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.Resources.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_DTO\obj\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.Resources.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.vbprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.Resources.resources
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\bin\Debug\QLTV_DTO.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.vbprojAssemblyReference.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.Resources.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.GenerateResource.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.CoreCompileInputs.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.pdb
