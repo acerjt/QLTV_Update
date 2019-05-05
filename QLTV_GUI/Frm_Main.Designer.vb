@@ -23,10 +23,11 @@ Partial Class Frm_Main
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation2 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
-        Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation3 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_Main))
+        Dim Animation4 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Me.Pn_Menu = New System.Windows.Forms.Panel()
+        Me.Btn_XemThongTin = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.btn_GioiThieu = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.MenuMain = New Bunifu.Framework.UI.BunifuFlatButton()
@@ -34,8 +35,11 @@ Partial Class Frm_Main
         Me.Btn_Menu = New Bunifu.Framework.UI.BunifuImageButton()
         Me.PanelAnimator = New BunifuAnimatorNS.BunifuTransition(Me.components)
         Me.Pn_Main = New System.Windows.Forms.Panel()
-        Me.Tile_BaoCaoSachTraTre = New MetroFramework.Controls.MetroTile()
+        Me.Pn_Admin = New System.Windows.Forms.Panel()
+        Me.Tile_TaoTK = New MetroFramework.Controls.MetroTile()
         Me.Tile_BaoCaoTheoTheLoai = New MetroFramework.Controls.MetroTile()
+        Me.Tile_BaoCaoSachTraTre = New MetroFramework.Controls.MetroTile()
+        Me.Tile_QuyDinh = New MetroFramework.Controls.MetroTile()
         Me.Tile_TraCuuSach = New MetroFramework.Controls.MetroTile()
         Me.Tile_NhanTraSach = New MetroFramework.Controls.MetroTile()
         Me.Tile_LapPhieuMuonSach = New MetroFramework.Controls.MetroTile()
@@ -48,7 +52,6 @@ Partial Class Frm_Main
         Me.Tile_QuanLiLoaiDocGia = New MetroFramework.Controls.MetroTile()
         Me.Tile_ThemLoaiDocGia = New MetroFramework.Controls.MetroTile()
         Me.Tile_QuanLiDocGia = New MetroFramework.Controls.MetroTile()
-        Me.Tile_QuyDinh = New MetroFramework.Controls.MetroTile()
         Me.Tile_ThemDocGia = New MetroFramework.Controls.MetroTile()
         Me.Btn_Close = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -58,12 +61,14 @@ Partial Class Frm_Main
         Me.Pn_Menu.SuspendLayout()
         CType(Me.Btn_Menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Pn_Main.SuspendLayout()
+        Me.Pn_Admin.SuspendLayout()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Pn_Menu
         '
         Me.Pn_Menu.BackColor = System.Drawing.Color.SeaGreen
+        Me.Pn_Menu.Controls.Add(Me.Btn_XemThongTin)
         Me.Pn_Menu.Controls.Add(Me.btn_GioiThieu)
         Me.Pn_Menu.Controls.Add(Me.BunifuFlatButton1)
         Me.Pn_Menu.Controls.Add(Me.MenuMain)
@@ -76,6 +81,44 @@ Partial Class Frm_Main
         Me.Pn_Menu.Name = "Pn_Menu"
         Me.Pn_Menu.Size = New System.Drawing.Size(240, 1094)
         Me.Pn_Menu.TabIndex = 1
+        '
+        'Btn_XemThongTin
+        '
+        Me.Btn_XemThongTin.Activecolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Btn_XemThongTin.BackColor = System.Drawing.Color.Transparent
+        Me.Btn_XemThongTin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Btn_XemThongTin.BorderRadius = 7
+        Me.Btn_XemThongTin.ButtonText = "Thông tin"
+        Me.Btn_XemThongTin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PanelAnimator1.SetDecoration(Me.Btn_XemThongTin, BunifuAnimatorNS.DecorationType.None)
+        Me.PanelAnimator.SetDecoration(Me.Btn_XemThongTin, BunifuAnimatorNS.DecorationType.None)
+        Me.Btn_XemThongTin.DisabledColor = System.Drawing.Color.Gray
+        Me.Btn_XemThongTin.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btn_XemThongTin.Iconcolor = System.Drawing.Color.Transparent
+        Me.Btn_XemThongTin.Iconimage = CType(resources.GetObject("Btn_XemThongTin.Iconimage"), System.Drawing.Image)
+        Me.Btn_XemThongTin.Iconimage_right = Nothing
+        Me.Btn_XemThongTin.Iconimage_right_Selected = Nothing
+        Me.Btn_XemThongTin.Iconimage_Selected = Nothing
+        Me.Btn_XemThongTin.IconMarginLeft = 0
+        Me.Btn_XemThongTin.IconMarginRight = 0
+        Me.Btn_XemThongTin.IconRightVisible = False
+        Me.Btn_XemThongTin.IconRightZoom = 0R
+        Me.Btn_XemThongTin.IconVisible = True
+        Me.Btn_XemThongTin.IconZoom = 50.0R
+        Me.Btn_XemThongTin.IsTab = False
+        Me.Btn_XemThongTin.Location = New System.Drawing.Point(7, 210)
+        Me.Btn_XemThongTin.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Btn_XemThongTin.Name = "Btn_XemThongTin"
+        Me.Btn_XemThongTin.Normalcolor = System.Drawing.Color.Transparent
+        Me.Btn_XemThongTin.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Btn_XemThongTin.OnHoverTextColor = System.Drawing.Color.White
+        Me.Btn_XemThongTin.selected = False
+        Me.Btn_XemThongTin.Size = New System.Drawing.Size(224, 56)
+        Me.Btn_XemThongTin.TabIndex = 13
+        Me.Btn_XemThongTin.Text = "Thông tin"
+        Me.Btn_XemThongTin.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Btn_XemThongTin.Textcolor = System.Drawing.Color.White
+        Me.Btn_XemThongTin.TextFont = New System.Drawing.Font("Times New Roman", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'btn_GioiThieu
         '
@@ -101,7 +144,7 @@ Partial Class Frm_Main
         Me.btn_GioiThieu.IconVisible = True
         Me.btn_GioiThieu.IconZoom = 50.0R
         Me.btn_GioiThieu.IsTab = False
-        Me.btn_GioiThieu.Location = New System.Drawing.Point(7, 345)
+        Me.btn_GioiThieu.Location = New System.Drawing.Point(7, 423)
         Me.btn_GioiThieu.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_GioiThieu.Name = "btn_GioiThieu"
         Me.btn_GioiThieu.Normalcolor = System.Drawing.Color.Transparent
@@ -139,7 +182,7 @@ Partial Class Frm_Main
         Me.BunifuFlatButton1.IconVisible = True
         Me.BunifuFlatButton1.IconZoom = 50.0R
         Me.BunifuFlatButton1.IsTab = False
-        Me.BunifuFlatButton1.Location = New System.Drawing.Point(3, 275)
+        Me.BunifuFlatButton1.Location = New System.Drawing.Point(4, 357)
         Me.BunifuFlatButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BunifuFlatButton1.Name = "BunifuFlatButton1"
         Me.BunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent
@@ -215,7 +258,7 @@ Partial Class Frm_Main
         Me.MenuDocGia.IconVisible = True
         Me.MenuDocGia.IconZoom = 50.0R
         Me.MenuDocGia.IsTab = False
-        Me.MenuDocGia.Location = New System.Drawing.Point(7, 210)
+        Me.MenuDocGia.Location = New System.Drawing.Point(8, 276)
         Me.MenuDocGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MenuDocGia.Name = "MenuDocGia"
         Me.MenuDocGia.Normalcolor = System.Drawing.Color.Transparent
@@ -248,28 +291,27 @@ Partial Class Frm_Main
         '
         Me.PanelAnimator.AnimationType = BunifuAnimatorNS.AnimationType.Mosaic
         Me.PanelAnimator.Cursor = Nothing
-        Animation2.AnimateOnlyDifferences = True
-        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
-        Animation2.LeafCoeff = 0!
-        Animation2.MaxTime = 1.0!
-        Animation2.MinTime = 0!
-        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
-        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
-        Animation2.MosaicSize = 20
-        Animation2.Padding = New System.Windows.Forms.Padding(30)
-        Animation2.RotateCoeff = 0!
-        Animation2.RotateLimit = 0!
-        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
-        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
-        Animation2.TimeCoeff = 0!
-        Animation2.TransparencyCoeff = 0!
-        Me.PanelAnimator.DefaultAnimation = Animation2
+        Animation3.AnimateOnlyDifferences = True
+        Animation3.BlindCoeff = CType(resources.GetObject("Animation3.BlindCoeff"), System.Drawing.PointF)
+        Animation3.LeafCoeff = 0!
+        Animation3.MaxTime = 1.0!
+        Animation3.MinTime = 0!
+        Animation3.MosaicCoeff = CType(resources.GetObject("Animation3.MosaicCoeff"), System.Drawing.PointF)
+        Animation3.MosaicShift = CType(resources.GetObject("Animation3.MosaicShift"), System.Drawing.PointF)
+        Animation3.MosaicSize = 20
+        Animation3.Padding = New System.Windows.Forms.Padding(30)
+        Animation3.RotateCoeff = 0!
+        Animation3.RotateLimit = 0!
+        Animation3.ScaleCoeff = CType(resources.GetObject("Animation3.ScaleCoeff"), System.Drawing.PointF)
+        Animation3.SlideCoeff = CType(resources.GetObject("Animation3.SlideCoeff"), System.Drawing.PointF)
+        Animation3.TimeCoeff = 0!
+        Animation3.TransparencyCoeff = 0!
+        Me.PanelAnimator.DefaultAnimation = Animation3
         '
         'Pn_Main
         '
         Me.Pn_Main.AutoSize = True
-        Me.Pn_Main.Controls.Add(Me.Tile_BaoCaoSachTraTre)
-        Me.Pn_Main.Controls.Add(Me.Tile_BaoCaoTheoTheLoai)
+        Me.Pn_Main.Controls.Add(Me.Pn_Admin)
         Me.Pn_Main.Controls.Add(Me.Tile_TraCuuSach)
         Me.Pn_Main.Controls.Add(Me.Tile_NhanTraSach)
         Me.Pn_Main.Controls.Add(Me.Tile_LapPhieuMuonSach)
@@ -282,7 +324,6 @@ Partial Class Frm_Main
         Me.Pn_Main.Controls.Add(Me.Tile_QuanLiLoaiDocGia)
         Me.Pn_Main.Controls.Add(Me.Tile_ThemLoaiDocGia)
         Me.Pn_Main.Controls.Add(Me.Tile_QuanLiDocGia)
-        Me.Pn_Main.Controls.Add(Me.Tile_QuyDinh)
         Me.Pn_Main.Controls.Add(Me.Tile_ThemDocGia)
         Me.Pn_Main.Controls.Add(Me.Btn_Close)
         Me.Pn_Main.Controls.Add(Me.Label3)
@@ -292,31 +333,44 @@ Partial Class Frm_Main
         Me.Pn_Main.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Pn_Main.Location = New System.Drawing.Point(240, 0)
         Me.Pn_Main.Name = "Pn_Main"
-        Me.Pn_Main.Size = New System.Drawing.Size(1565, 1094)
+        Me.Pn_Main.Size = New System.Drawing.Size(1420, 1094)
         Me.Pn_Main.TabIndex = 2
         '
-        'Tile_BaoCaoSachTraTre
+        'Pn_Admin
         '
-        Me.Tile_BaoCaoSachTraTre.ActiveControl = Nothing
-        Me.Tile_BaoCaoSachTraTre.BackColor = System.Drawing.Color.SeaGreen
-        Me.PanelAnimator1.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
-        Me.PanelAnimator.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
-        Me.Tile_BaoCaoSachTraTre.ForeColor = System.Drawing.Color.White
-        Me.Tile_BaoCaoSachTraTre.Location = New System.Drawing.Point(51, 811)
-        Me.Tile_BaoCaoSachTraTre.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Tile_BaoCaoSachTraTre.Name = "Tile_BaoCaoSachTraTre"
-        Me.Tile_BaoCaoSachTraTre.Size = New System.Drawing.Size(438, 220)
-        Me.Tile_BaoCaoSachTraTre.TabIndex = 60
-        Me.Tile_BaoCaoSachTraTre.Text = "Báo Cáo Thống Kê Sách Trả Trễ"
-        Me.Tile_BaoCaoSachTraTre.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_edit_graph_report_80
-        Me.Tile_BaoCaoSachTraTre.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Tile_BaoCaoSachTraTre.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
-        Me.Tile_BaoCaoSachTraTre.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
-        Me.Tile_BaoCaoSachTraTre.UseCustomBackColor = True
-        Me.Tile_BaoCaoSachTraTre.UseCustomForeColor = True
-        Me.Tile_BaoCaoSachTraTre.UseSelectable = True
-        Me.Tile_BaoCaoSachTraTre.UseStyleColors = True
-        Me.Tile_BaoCaoSachTraTre.UseTileImage = True
+        Me.Pn_Admin.Controls.Add(Me.Tile_TaoTK)
+        Me.Pn_Admin.Controls.Add(Me.Tile_BaoCaoTheoTheLoai)
+        Me.Pn_Admin.Controls.Add(Me.Tile_BaoCaoSachTraTre)
+        Me.Pn_Admin.Controls.Add(Me.Tile_QuyDinh)
+        Me.PanelAnimator1.SetDecoration(Me.Pn_Admin, BunifuAnimatorNS.DecorationType.None)
+        Me.PanelAnimator.SetDecoration(Me.Pn_Admin, BunifuAnimatorNS.DecorationType.None)
+        Me.Pn_Admin.Location = New System.Drawing.Point(6, 88)
+        Me.Pn_Admin.Name = "Pn_Admin"
+        Me.Pn_Admin.Size = New System.Drawing.Size(1270, 534)
+        Me.Pn_Admin.TabIndex = 61
+        '
+        'Tile_TaoTK
+        '
+        Me.Tile_TaoTK.ActiveControl = Nothing
+        Me.Tile_TaoTK.BackColor = System.Drawing.Color.SeaGreen
+        Me.PanelAnimator1.SetDecoration(Me.Tile_TaoTK, BunifuAnimatorNS.DecorationType.None)
+        Me.PanelAnimator.SetDecoration(Me.Tile_TaoTK, BunifuAnimatorNS.DecorationType.None)
+        Me.Tile_TaoTK.ForeColor = System.Drawing.Color.White
+        Me.Tile_TaoTK.Location = New System.Drawing.Point(21, 122)
+        Me.Tile_TaoTK.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Tile_TaoTK.Name = "Tile_TaoTK"
+        Me.Tile_TaoTK.Size = New System.Drawing.Size(216, 388)
+        Me.Tile_TaoTK.TabIndex = 62
+        Me.Tile_TaoTK.Text = "Tạo Tài Khoản"
+        Me.Tile_TaoTK.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_add_user_group_woman_man_80
+        Me.Tile_TaoTK.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Tile_TaoTK.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
+        Me.Tile_TaoTK.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
+        Me.Tile_TaoTK.UseCustomBackColor = True
+        Me.Tile_TaoTK.UseCustomForeColor = True
+        Me.Tile_TaoTK.UseSelectable = True
+        Me.Tile_TaoTK.UseStyleColors = True
+        Me.Tile_TaoTK.UseTileImage = True
         '
         'Tile_BaoCaoTheoTheLoai
         '
@@ -325,10 +379,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_BaoCaoTheoTheLoai, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_BaoCaoTheoTheLoai, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_BaoCaoTheoTheLoai.ForeColor = System.Drawing.Color.White
-        Me.Tile_BaoCaoTheoTheLoai.Location = New System.Drawing.Point(51, 581)
+        Me.Tile_BaoCaoTheoTheLoai.Location = New System.Drawing.Point(279, 122)
         Me.Tile_BaoCaoTheoTheLoai.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_BaoCaoTheoTheLoai.Name = "Tile_BaoCaoTheoTheLoai"
-        Me.Tile_BaoCaoTheoTheLoai.Size = New System.Drawing.Size(438, 220)
+        Me.Tile_BaoCaoTheoTheLoai.Size = New System.Drawing.Size(438, 158)
         Me.Tile_BaoCaoTheoTheLoai.TabIndex = 59
         Me.Tile_BaoCaoTheoTheLoai.Text = "Báo Cáo Thống Kê Theo Thể Loại"
         Me.Tile_BaoCaoTheoTheLoai.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_pie_chart_80
@@ -341,6 +395,52 @@ Partial Class Frm_Main
         Me.Tile_BaoCaoTheoTheLoai.UseStyleColors = True
         Me.Tile_BaoCaoTheoTheLoai.UseTileImage = True
         '
+        'Tile_BaoCaoSachTraTre
+        '
+        Me.Tile_BaoCaoSachTraTre.ActiveControl = Nothing
+        Me.Tile_BaoCaoSachTraTre.BackColor = System.Drawing.Color.SeaGreen
+        Me.PanelAnimator1.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
+        Me.PanelAnimator.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
+        Me.Tile_BaoCaoSachTraTre.ForeColor = System.Drawing.Color.White
+        Me.Tile_BaoCaoSachTraTre.Location = New System.Drawing.Point(279, 300)
+        Me.Tile_BaoCaoSachTraTre.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Tile_BaoCaoSachTraTre.Name = "Tile_BaoCaoSachTraTre"
+        Me.Tile_BaoCaoSachTraTre.Size = New System.Drawing.Size(438, 210)
+        Me.Tile_BaoCaoSachTraTre.TabIndex = 60
+        Me.Tile_BaoCaoSachTraTre.Text = "Báo Cáo Thống Kê Sách Trả Trễ"
+        Me.Tile_BaoCaoSachTraTre.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_edit_graph_report_80
+        Me.Tile_BaoCaoSachTraTre.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Tile_BaoCaoSachTraTre.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
+        Me.Tile_BaoCaoSachTraTre.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
+        Me.Tile_BaoCaoSachTraTre.UseCustomBackColor = True
+        Me.Tile_BaoCaoSachTraTre.UseCustomForeColor = True
+        Me.Tile_BaoCaoSachTraTre.UseSelectable = True
+        Me.Tile_BaoCaoSachTraTre.UseStyleColors = True
+        Me.Tile_BaoCaoSachTraTre.UseTileImage = True
+        '
+        'Tile_QuyDinh
+        '
+        Me.Tile_QuyDinh.ActiveControl = Nothing
+        Me.Tile_QuyDinh.BackColor = System.Drawing.Color.SeaGreen
+        Me.PanelAnimator1.SetDecoration(Me.Tile_QuyDinh, BunifuAnimatorNS.DecorationType.None)
+        Me.PanelAnimator.SetDecoration(Me.Tile_QuyDinh, BunifuAnimatorNS.DecorationType.None)
+        Me.Tile_QuyDinh.ForeColor = System.Drawing.Color.White
+        Me.Tile_QuyDinh.Location = New System.Drawing.Point(766, 122)
+        Me.Tile_QuyDinh.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Tile_QuyDinh.Name = "Tile_QuyDinh"
+        Me.Tile_QuyDinh.Size = New System.Drawing.Size(216, 383)
+        Me.Tile_QuyDinh.TabIndex = 42
+        Me.Tile_QuyDinh.Text = "Quy Định"
+        Me.Tile_QuyDinh.TileImage = CType(resources.GetObject("Tile_QuyDinh.TileImage"), System.Drawing.Image)
+        Me.Tile_QuyDinh.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Tile_QuyDinh.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
+        Me.Tile_QuyDinh.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
+        Me.Tile_QuyDinh.UseCustomBackColor = True
+        Me.Tile_QuyDinh.UseCustomForeColor = True
+        Me.Tile_QuyDinh.UseSelectable = True
+        Me.Tile_QuyDinh.UseStyleColors = True
+        Me.Tile_QuyDinh.UseTileImage = True
+        '
         'Tile_TraCuuSach
         '
         Me.Tile_TraCuuSach.ActiveControl = Nothing
@@ -349,7 +449,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_TraCuuSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_TraCuuSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_TraCuuSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_TraCuuSach.Location = New System.Drawing.Point(551, 811)
+        Me.Tile_TraCuuSach.Location = New System.Drawing.Point(51, 816)
         Me.Tile_TraCuuSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_TraCuuSach.Name = "Tile_TraCuuSach"
         Me.Tile_TraCuuSach.Size = New System.Drawing.Size(628, 220)
@@ -373,7 +473,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_NhanTraSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_NhanTraSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_NhanTraSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_NhanTraSach.Location = New System.Drawing.Point(869, 581)
+        Me.Tile_NhanTraSach.Location = New System.Drawing.Point(369, 581)
         Me.Tile_NhanTraSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_NhanTraSach.Name = "Tile_NhanTraSach"
         Me.Tile_NhanTraSach.Size = New System.Drawing.Size(310, 220)
@@ -397,7 +497,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_LapPhieuMuonSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_LapPhieuMuonSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_LapPhieuMuonSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_LapPhieuMuonSach.Location = New System.Drawing.Point(551, 581)
+        Me.Tile_LapPhieuMuonSach.Location = New System.Drawing.Point(51, 581)
         Me.Tile_LapPhieuMuonSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_LapPhieuMuonSach.Name = "Tile_LapPhieuMuonSach"
         Me.Tile_LapPhieuMuonSach.Size = New System.Drawing.Size(310, 220)
@@ -420,7 +520,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuanLiTheLoaiSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuanLiTheLoaiSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuanLiTheLoaiSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuanLiTheLoaiSach.Location = New System.Drawing.Point(1147, 318)
+        Me.Tile_QuanLiTheLoaiSach.Location = New System.Drawing.Point(965, 318)
         Me.Tile_QuanLiTheLoaiSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuanLiTheLoaiSach.Name = "Tile_QuanLiTheLoaiSach"
         Me.Tile_QuanLiTheLoaiSach.Size = New System.Drawing.Size(328, 220)
@@ -443,7 +543,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_ThemTheLoaiSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_ThemTheLoaiSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_ThemTheLoaiSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_ThemTheLoaiSach.Location = New System.Drawing.Point(1147, 88)
+        Me.Tile_ThemTheLoaiSach.Location = New System.Drawing.Point(965, 88)
         Me.Tile_ThemTheLoaiSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_ThemTheLoaiSach.Name = "Tile_ThemTheLoaiSach"
         Me.Tile_ThemTheLoaiSach.Size = New System.Drawing.Size(328, 220)
@@ -467,7 +567,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuanLiTacGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuanLiTacGia, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuanLiTacGia.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuanLiTacGia.Location = New System.Drawing.Point(877, 318)
+        Me.Tile_QuanLiTacGia.Location = New System.Drawing.Point(677, 318)
         Me.Tile_QuanLiTacGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuanLiTacGia.Name = "Tile_QuanLiTacGia"
         Me.Tile_QuanLiTacGia.Size = New System.Drawing.Size(262, 220)
@@ -490,7 +590,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_ThemTacGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_ThemTacGia, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_ThemTacGia.ForeColor = System.Drawing.Color.White
-        Me.Tile_ThemTacGia.Location = New System.Drawing.Point(877, 88)
+        Me.Tile_ThemTacGia.Location = New System.Drawing.Point(677, 88)
         Me.Tile_ThemTacGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_ThemTacGia.Name = "Tile_ThemTacGia"
         Me.Tile_ThemTacGia.Size = New System.Drawing.Size(262, 220)
@@ -513,10 +613,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuanLiSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuanLiSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuanLiSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuanLiSach.Location = New System.Drawing.Point(654, 318)
+        Me.Tile_QuanLiSach.Location = New System.Drawing.Point(742, 816)
         Me.Tile_QuanLiSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuanLiSach.Name = "Tile_QuanLiSach"
-        Me.Tile_QuanLiSach.Size = New System.Drawing.Size(215, 220)
+        Me.Tile_QuanLiSach.Size = New System.Drawing.Size(551, 220)
         Me.Tile_QuanLiSach.TabIndex = 47
         Me.Tile_QuanLiSach.Text = "Quản Lí Sách"
         Me.Tile_QuanLiSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_book_shelf_80
@@ -536,10 +636,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_ThemSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_ThemSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_ThemSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_ThemSach.Location = New System.Drawing.Point(654, 88)
+        Me.Tile_ThemSach.Location = New System.Drawing.Point(742, 581)
         Me.Tile_ThemSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_ThemSach.Name = "Tile_ThemSach"
-        Me.Tile_ThemSach.Size = New System.Drawing.Size(215, 220)
+        Me.Tile_ThemSach.Size = New System.Drawing.Size(551, 220)
         Me.Tile_ThemSach.TabIndex = 46
         Me.Tile_ThemSach.Text = "Thêm Sách"
         Me.Tile_ThemSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_contacts_80
@@ -621,29 +721,6 @@ Partial Class Frm_Main
         Me.Tile_QuanLiDocGia.UseStyleColors = True
         Me.Tile_QuanLiDocGia.UseTileImage = True
         '
-        'Tile_QuyDinh
-        '
-        Me.Tile_QuyDinh.ActiveControl = Nothing
-        Me.Tile_QuyDinh.BackColor = System.Drawing.Color.SeaGreen
-        Me.PanelAnimator1.SetDecoration(Me.Tile_QuyDinh, BunifuAnimatorNS.DecorationType.None)
-        Me.PanelAnimator.SetDecoration(Me.Tile_QuyDinh, BunifuAnimatorNS.DecorationType.None)
-        Me.Tile_QuyDinh.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuyDinh.Location = New System.Drawing.Point(1234, 581)
-        Me.Tile_QuyDinh.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Tile_QuyDinh.Name = "Tile_QuyDinh"
-        Me.Tile_QuyDinh.Size = New System.Drawing.Size(241, 450)
-        Me.Tile_QuyDinh.TabIndex = 42
-        Me.Tile_QuyDinh.Text = "Quy Định"
-        Me.Tile_QuyDinh.TileImage = CType(resources.GetObject("Tile_QuyDinh.TileImage"), System.Drawing.Image)
-        Me.Tile_QuyDinh.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.Tile_QuyDinh.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
-        Me.Tile_QuyDinh.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
-        Me.Tile_QuyDinh.UseCustomBackColor = True
-        Me.Tile_QuyDinh.UseCustomForeColor = True
-        Me.Tile_QuyDinh.UseSelectable = True
-        Me.Tile_QuyDinh.UseStyleColors = True
-        Me.Tile_QuyDinh.UseTileImage = True
-        '
         'Tile_ThemDocGia
         '
         Me.Tile_ThemDocGia.ActiveControl = Nothing
@@ -674,7 +751,7 @@ Partial Class Frm_Main
         Me.PanelAnimator.SetDecoration(Me.Btn_Close, BunifuAnimatorNS.DecorationType.None)
         Me.Btn_Close.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
         Me.Btn_Close.ImageActive = Nothing
-        Me.Btn_Close.Location = New System.Drawing.Point(1473, 13)
+        Me.Btn_Close.Location = New System.Drawing.Point(1308, 3)
         Me.Btn_Close.Name = "Btn_Close"
         Me.Btn_Close.Size = New System.Drawing.Size(55, 48)
         Me.Btn_Close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -707,7 +784,7 @@ Partial Class Frm_Main
         Me.BunifuSeparator1.Location = New System.Drawing.Point(20, 57)
         Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(1494, 35)
+        Me.BunifuSeparator1.Size = New System.Drawing.Size(1314, 35)
         Me.BunifuSeparator1.TabIndex = 32
         Me.BunifuSeparator1.Transparency = 255
         Me.BunifuSeparator1.Vertical = False
@@ -716,22 +793,22 @@ Partial Class Frm_Main
         '
         Me.PanelAnimator1.AnimationType = BunifuAnimatorNS.AnimationType.Leaf
         Me.PanelAnimator1.Cursor = Nothing
-        Animation1.AnimateOnlyDifferences = True
-        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
-        Animation1.LeafCoeff = 1.0!
-        Animation1.MaxTime = 1.0!
-        Animation1.MinTime = 0!
-        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
-        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
-        Animation1.MosaicSize = 0
-        Animation1.Padding = New System.Windows.Forms.Padding(0)
-        Animation1.RotateCoeff = 0!
-        Animation1.RotateLimit = 0!
-        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
-        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
-        Animation1.TimeCoeff = 0!
-        Animation1.TransparencyCoeff = 0!
-        Me.PanelAnimator1.DefaultAnimation = Animation1
+        Animation4.AnimateOnlyDifferences = True
+        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), System.Drawing.PointF)
+        Animation4.LeafCoeff = 1.0!
+        Animation4.MaxTime = 1.0!
+        Animation4.MinTime = 0!
+        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), System.Drawing.PointF)
+        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), System.Drawing.PointF)
+        Animation4.MosaicSize = 0
+        Animation4.Padding = New System.Windows.Forms.Padding(0)
+        Animation4.RotateCoeff = 0!
+        Animation4.RotateLimit = 0!
+        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), System.Drawing.PointF)
+        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), System.Drawing.PointF)
+        Animation4.TimeCoeff = 0!
+        Animation4.TransparencyCoeff = 0!
+        Me.PanelAnimator1.DefaultAnimation = Animation4
         Me.PanelAnimator1.Interval = 50
         Me.PanelAnimator1.MaxAnimationTime = 5000
         Me.PanelAnimator1.TimeStep = 0.07!
@@ -748,7 +825,7 @@ Partial Class Frm_Main
         Me.AutoSize = True
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1805, 1094)
+        Me.ClientSize = New System.Drawing.Size(1660, 1094)
         Me.Controls.Add(Me.Pn_Main)
         Me.Controls.Add(Me.Pn_Menu)
         Me.PanelAnimator.SetDecoration(Me, BunifuAnimatorNS.DecorationType.None)
@@ -764,6 +841,7 @@ Partial Class Frm_Main
         CType(Me.Btn_Menu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Pn_Main.ResumeLayout(False)
         Me.Pn_Main.PerformLayout()
+        Me.Pn_Admin.ResumeLayout(False)
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -798,4 +876,7 @@ Partial Class Frm_Main
     Private WithEvents Tile_ThemDocGia As MetroFramework.Controls.MetroTile
     Friend WithEvents BunifuFlatButton1 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents btn_GioiThieu As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents Btn_XemThongTin As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents Pn_Admin As Panel
+    Private WithEvents Tile_TaoTK As MetroFramework.Controls.MetroTile
 End Class

@@ -22,6 +22,8 @@ Public Class Frm_Register
         Login.Password = Txt_PassWord.Text
         If Txt_Username.Text = My.Settings.AdminUser And Txt_Password.Text = My.Settings.AdminPass Then
             Hide()
+            'Dim frm_Main = New Frm_Main()
+            'frm_Main.ShowDialog()
             Dim frmRegrister = New Frm_Register()
             frmRegrister.ShowDialog()
         Else

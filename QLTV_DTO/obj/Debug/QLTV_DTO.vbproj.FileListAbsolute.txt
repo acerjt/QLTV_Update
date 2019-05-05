@@ -57,3 +57,13 @@ E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\Q
 E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.exe
 E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.xml
 E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_DTO\obj\Debug\QLTV_DTO.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\bin\Debug\QLTV_DTO.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\bin\Debug\QLTV_DTO.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\bin\Debug\QLTV_DTO.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.vbprojAssemblyReference.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.Resources.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.GenerateResource.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.CoreCompileInputs.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.pdb

@@ -190,6 +190,20 @@ Public Class Frm_Main
     End Sub
 
     Private Sub Pn_Main_Paint(sender As Object, e As PaintEventArgs) Handles Pn_Main.Paint
+        'Pn_Main.Dock = DockStyle.None
+        'Me.Size = New Size(1300, 900)
+        ' Pn_Main.Dock = DockStyle.Fill
+        Pn_Admin.Hide()
+    End Sub
 
+    Private Sub BunifuFlatButton2_Click(sender As Object, e As EventArgs) Handles Btn_XemThongTin.Click
+        Dim frm_XemThongTin = New Frm_XemThongTin()
+        frm_XemThongTin.ShowDialog()
+    End Sub
+
+    Private Sub Tile_TaoTK_Click(sender As Object, e As EventArgs) Handles Tile_TaoTK.Click
+        Dim frm_TaoTK = New Form1()
+        Me.Hide()
+        frm_TaoTK.ShowDialog()
     End Sub
 End Class

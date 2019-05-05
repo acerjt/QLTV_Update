@@ -17,11 +17,24 @@ Public Class Frm_Login
         Login.Password = Txt_PassWord.Text
         If Txt_Username.Text = My.Settings.AdminUser And Txt_Password.Text = My.Settings.AdminPass Then
             Hide()
-            Dim frmRegrister = New Frm_Register()
-            frmRegrister.ShowDialog()
-            If (frmRegrister.DialogResult = DialogResult.Cancel) Then
+            'Dim frmRegrister = New Frm_Register()
+            'frmRegrister.ShowDialog()
+
+            'If (frmRegrister.DialogResult = DialogResult.Cancel) Then
+            '    Application.Exit()
+            'ElseIf (frmRegrister.DialogResult = DialogResult.OK) Then
+            '    Show()
+            '    'ElseIf (frmMain.DialogResult = DialogResult.No) Then
+            '    '    Return
+            'End If
+            Dim frmMain = New Frm_Main()
+
+            frmMain.ShowDialog()
+            frmMain.Pn_Main.Enabled = False
+
+            If (frmMain.DialogResult = DialogResult.Cancel) Then
                 Application.Exit()
-            ElseIf (frmRegrister.DialogResult = DialogResult.OK) Then
+            ElseIf (frmMain.DialogResult = DialogResult.OK) Then
                 Show()
                 'ElseIf (frmMain.DialogResult = DialogResult.No) Then
                 '    Return
@@ -62,5 +75,11 @@ Public Class Frm_Login
 
     Private Sub Btn_Exit_Click(sender As Object, e As EventArgs) Handles Btn_Exit.Click
         Application.Exit()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Dim frm_Form1 = New Form1()
+        frm_Form1.ShowDialog()
+
     End Sub
 End Class

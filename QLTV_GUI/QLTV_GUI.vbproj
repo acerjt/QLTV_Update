@@ -111,6 +111,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frm_About.Designer.vb">
       <DependentUpon>Frm_About.vb</DependentUpon>
     </Compile>
@@ -244,6 +250,12 @@
     <Compile Include="Frm_TraCuuSach.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Frm_XemThongTin.Designer.vb">
+      <DependentUpon>Frm_XemThongTin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_XemThongTin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -259,8 +271,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Frm_DoiMatKhau.Designer.vb">
+      <DependentUpon>Frm_DoiMatKhau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DoiMatKhau.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_About.resx">
       <DependentUpon>Frm_About.vb</DependentUpon>
     </EmbeddedResource>
@@ -327,11 +348,17 @@
     <EmbeddedResource Include="Frm_TraCuuSach.resx">
       <DependentUpon>Frm_TraCuuSach.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_XemThongTin.resx">
+      <DependentUpon>Frm_XemThongTin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DoiMatKhau.resx">
+      <DependentUpon>Frm_DoiMatKhau.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -497,6 +524,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-info-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-reset-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-group-woman-man-80.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

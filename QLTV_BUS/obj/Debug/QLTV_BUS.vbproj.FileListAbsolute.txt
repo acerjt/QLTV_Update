@@ -116,3 +116,23 @@ E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\Q
 E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.exe
 E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.xml
 E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_BUS\obj\Debug\QLTV_BUS.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_BUS.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_BUS.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_BUS.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_DAL.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_DTO.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\Utility.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_DAL.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_DAL.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_DTO.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\QLTV_DTO.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\Utility.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\bin\Debug\Utility.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\obj\Debug\QLTV_BUS.vbprojAssemblyReference.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\obj\Debug\QLTV_BUS.Resources.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.GenerateResource.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CoreCompileInputs.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\obj\Debug\QLTV_BUS.vbproj.CopyComplete
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\obj\Debug\QLTV_BUS.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\obj\Debug\QLTV_BUS.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_BUS\obj\Debug\QLTV_BUS.pdb

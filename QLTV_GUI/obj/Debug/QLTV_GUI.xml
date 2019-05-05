@@ -47,6 +47,16 @@ QLTV_GUI
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:QLTV_GUI.My.Resources.Resources.icons8_add_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QLTV_GUI.My.Resources.Resources.icons8_add_user_group_woman_man_80">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:QLTV_GUI.My.Resources.Resources.icons8_applicant_80__1_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -167,6 +177,11 @@ QLTV_GUI
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:QLTV_GUI.My.Resources.Resources.icons8_password_reset_40">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:QLTV_GUI.My.Resources.Resources.icons8_pie_chart_80">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -203,6 +218,11 @@ QLTV_GUI
 </summary>
 </member>
 <member name="P:QLTV_GUI.My.Resources.Resources.icons8_rules_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:QLTV_GUI.My.Resources.Resources.icons8_user_50">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -34,6 +34,7 @@ Partial Class Frm_About
         Me.label4 = New System.Windows.Forms.Label()
         Me.Btn_Close = New Bunifu.Framework.UI.BunifuImageButton()
         Me.label9 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -45,11 +46,11 @@ Partial Class Frm_About
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 26.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 26.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label3.Location = New System.Drawing.Point(1, -1)
+        Me.Label3.Location = New System.Drawing.Point(12, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(262, 70)
+        Me.Label3.Size = New System.Drawing.Size(250, 60)
         Me.Label3.TabIndex = 98
         Me.Label3.Text = "Giới Thiệu"
         '
@@ -81,18 +82,19 @@ Partial Class Frm_About
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(75, 175)
+        Me.Label1.Location = New System.Drawing.Point(51, 175)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(590, 90)
+        Me.Label1.Size = New System.Drawing.Size(614, 52)
         Me.Label1.TabIndex = 102
-        Me.Label1.Text = "GVHD: Nguyễn Tấn Trần Minh Khang                   Nguyễn Công Hoan"
+        Me.Label1.Text = "GVHD: Trần Anh Dũng"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'bunifuSeparator2
         '
         Me.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent
         Me.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.bunifuSeparator2.LineThickness = 1
-        Me.bunifuSeparator2.Location = New System.Drawing.Point(159, 273)
+        Me.bunifuSeparator2.Location = New System.Drawing.Point(158, 235)
         Me.bunifuSeparator2.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.bunifuSeparator2.Name = "bunifuSeparator2"
         Me.bunifuSeparator2.Size = New System.Drawing.Size(384, 15)
@@ -105,7 +107,7 @@ Partial Class Frm_About
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(251, 298)
+        Me.Label2.Location = New System.Drawing.Point(250, 246)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(232, 36)
@@ -117,7 +119,7 @@ Partial Class Frm_About
         Me.label6.AutoSize = True
         Me.label6.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.label6.Location = New System.Drawing.Point(178, 401)
+        Me.label6.Location = New System.Drawing.Point(172, 341)
         Me.label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.label6.Name = "label6"
         Me.label6.Size = New System.Drawing.Size(418, 36)
@@ -129,7 +131,7 @@ Partial Class Frm_About
         Me.label4.AutoSize = True
         Me.label4.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.label4.Location = New System.Drawing.Point(190, 347)
+        Me.label4.Location = New System.Drawing.Point(187, 294)
         Me.label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.label4.Name = "label4"
         Me.label4.Size = New System.Drawing.Size(375, 36)
@@ -161,12 +163,25 @@ Partial Class Frm_About
         Me.label9.TabIndex = 107
         Me.label9.Text = "Phiên bản 1.1.7"
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label7.Location = New System.Drawing.Point(187, 387)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(359, 36)
+        Me.Label7.TabIndex = 108
+        Me.Label7.Text = "Võ Huỳnh Việt - 16521436"
+        '
         'Frm_About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(740, 509)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.label9)
         Me.Controls.Add(Me.label6)
         Me.Controls.Add(Me.label4)
@@ -198,4 +213,5 @@ Partial Class Frm_About
     Friend WithEvents Label1 As Label
     Private WithEvents label5 As Label
     Private WithEvents label9 As Label
+    Private WithEvents Label7 As Label
 End Class
