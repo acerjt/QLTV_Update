@@ -8,20 +8,31 @@ Public Class Frm_LapPhieuTraSach
     Private SachBus As Sach_BUS
     Private QuyDinhBus As QuyDinh_BUS
     Private ChiTietPhieuTraSachBUS As ChiTietPhieuTraSach_BUS
+    Private NhanVienBUS As NhanVien_BUS
     Private listChiTietPhieuMuonSach As List(Of Sach_DTO)
     Private listChiTietPhieuTraSach As List(Of ChiTietPhieuTraSach_DTO)
+    Private iNhanVienID As Integer
     Dim frm_Infor = New Frm_Information()
+
+    Property NhanVienID() As Integer
+        Get
+            Return iNhanVienID
+        End Get
+        Set(ByVal Value As Integer)
+            iNhanVienID = Value
+        End Set
+    End Property
     Private Sub Frm_NhanTraSach_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PhieuTraSachBus = New PhieuTraSach_BUS()
         DocGiaBus = New DocGia_BUS()
         SachBus = New Sach_BUS()
         QuyDinhBus = New QuyDinh_BUS()
-
+        NhanVienBUS = New NhanVien_BUS()
         ChiTietPhieuTraSachBUS = New ChiTietPhieuTraSach_BUS()
         listChiTietPhieuMuonSach = New List(Of Sach_DTO)
         listChiTietPhieuTraSach = New List(Of ChiTietPhieuTraSach_DTO)
         Dim listSach = New List(Of Sach_DTO)
-
+        Dim NhanVien = New NhanVien_DTO()
         Dtp_NgayTra.Value = DateTime.Now
 
         Dim result As Result
@@ -36,6 +47,15 @@ Public Class Frm_LapPhieuTraSach
             Return
         End If
         Txt_MaPhieuTraSach.Text = nextMaPhieuTraSach
+        result = NhanVienBUS.selectHoVaTen(NhanVienID, NhanVien)
+        If (result.FlagResult = False) Then
+            Frm_Information.m.Text = "Lấy thông tin thủ thư không thành công."
+            Frm_Information.ShowDialog()
+            System.Console.WriteLine(result.SystemMessage)
+            Return
+        Else
+            Txt_TenThuThu.Text = NhanVien.HoVaTen
+        End If
     End Sub
 
     Private Sub Txt_MaDocGia_TextChanged(sender As Object, e As EventArgs) Handles Txt_MaDocGia.TextChanged
@@ -293,7 +313,7 @@ Public Class Frm_LapPhieuTraSach
             Return
         End If
         PhieuTraSach.MaDocGia = Txt_MaDocGia.Text
-
+        PhieuTraSach.MaNhanVien = NhanVienID()
 
         PhieuTraSach.NgayTra = Dtp_NgayTra.Value
         'PhieuMuonSach.NgayDuKienTra = Dtp_NgayMuon.Value.AddDays(4)
@@ -410,5 +430,13 @@ Public Class Frm_LapPhieuTraSach
     Private Sub Dgv_ListSachTra_EditingControlShowing(sender As Object, e As DataGridViewEditingControlShowingEventArgs) Handles Dgv_ListSachTra.EditingControlShowing
         RemoveHandler e.Control.KeyPress, AddressOf Control_KeyPress
         AddHandler e.Control.KeyPress, AddressOf Control_KeyPress
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Txt_TenThuThu_TextChanged(sender As Object, e As EventArgs) Handles Txt_TenThuThu.TextChanged
+
     End Sub
 End Class

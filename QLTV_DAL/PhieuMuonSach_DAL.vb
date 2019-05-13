@@ -56,8 +56,8 @@ Public Class PhieuMuonSach_DAL
     Public Function insert(pms As PhieuMuonSach_DTO, listChiTietPhieuMuonSach As List(Of ChiTietPhieuMuonSach_DTO)) As Result
 
         Dim query As String = String.Empty
-        query &= "INSERT INTO [tblphieumuonsach] ([maphieumuonsach], [madocgia], [ngaymuon], [ngaydukientra])"
-        query &= "VALUES (@maphieumuonsach, @madocgia, @ngaymuon, @ngaydukientra)"
+        query &= "INSERT INTO [tblphieumuonsach] ([maphieumuonsach], [madocgia], [ngaymuon], [ngaydukientra] , [manhanvien])"
+        query &= "VALUES (@maphieumuonsach, @madocgia, @ngaymuon, @ngaydukientra, @manhanvien)"
 
         Dim query1 As String = String.Empty
         query1 &= "INSERT INTO [tblChitietphieumuonsach] ( [maphieumuonsach],[masach],[tinhtrang])"
@@ -111,6 +111,7 @@ Public Class PhieuMuonSach_DAL
                     .Parameters.AddWithValue("@madocgia", pms.MaDocGia)
                     .Parameters.AddWithValue("@ngaymuon", pms.NgayMuon)
                     .Parameters.AddWithValue("@ngaydukientra", pms.NgayDuKienTra)
+                    .Parameters.AddWithValue("@manhanvien", pms.MaNhanVien)
                     '.Parameters.AddWithValue("@tinhtrang", "DangMuon")
                     'Dim comm1 As New SqlCommand()
 

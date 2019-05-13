@@ -131,10 +131,12 @@ Public Class Frm_QLDocGia
         Cb_LoaiDocGia.DataSource = New BindingSource(listLoaiDocGia, String.Empty)
         Cb_LoaiDocGia.DisplayMember = "TenLoaiDocGia"
         Cb_LoaiDocGia.ValueMember = "MaLoaiDocGia"
-
+        Dim MaLoaiDocGia = Convert.ToInt32(Cb_LoaiDocGia.SelectedValue)
+        loadListDocGia(MaLoaiDocGia)
         Cb_LoaiDocGiaCapNhap.DataSource = New BindingSource(listLoaiDocGia, String.Empty)
         Cb_LoaiDocGiaCapNhap.DisplayMember = "TenLoaiDocGia"
         Cb_LoaiDocGiaCapNhap.ValueMember = "MaLoaiDocGia"
+
 
         Txt_NgayHetHan.Text = ""
         Txt_TinhTrangThe.Text = ""

@@ -4,6 +4,7 @@ Public Class PhieuMuonSach_DTO
     Private iMaDocGia As Integer
     Private dateNgayMuon As DateTime
     Private dateNgayDuKienTra As DateTime
+    Private iMaNhanVien As Integer
 
     'Private lsCTPMS As List(Of ChiTietPhieuMuonSach_DTO)
 
@@ -52,6 +53,13 @@ Public Class PhieuMuonSach_DTO
             dateNgayDuKienTra = value
         End Set
     End Property
-
+    Public Property MaNhanVien() As Integer
+        Get
+            Return iMaNhanVien
+        End Get
+        Set(value As Integer)
+            iMaNhanVien = value
+        End Set
+    End Property
 
 End Class

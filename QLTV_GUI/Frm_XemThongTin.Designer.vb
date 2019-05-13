@@ -24,10 +24,6 @@ Partial Class Frm_XemThongTin
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_XemThongTin))
-        Me.Txt_UserName = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
-        Me.Txt_PassWord = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Txt_HoVaTen = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
         Me.Txt_MaThuThu = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
         Me.Txt_DiaChi = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
@@ -49,48 +45,6 @@ Partial Class Frm_XemThongTin
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Txt_UserName
-        '
-        Me.Txt_UserName.BorderColor = System.Drawing.Color.SeaGreen
-        Me.Txt_UserName.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_UserName.Location = New System.Drawing.Point(947, 104)
-        Me.Txt_UserName.Multiline = True
-        Me.Txt_UserName.Name = "Txt_UserName"
-        Me.Txt_UserName.Size = New System.Drawing.Size(282, 42)
-        Me.Txt_UserName.TabIndex = 149
-        '
-        'Txt_PassWord
-        '
-        Me.Txt_PassWord.BorderColor = System.Drawing.Color.SeaGreen
-        Me.Txt_PassWord.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_PassWord.Location = New System.Drawing.Point(947, 156)
-        Me.Txt_PassWord.Multiline = True
-        Me.Txt_PassWord.Name = "Txt_PassWord"
-        Me.Txt_PassWord.Size = New System.Drawing.Size(282, 42)
-        Me.Txt_PassWord.TabIndex = 150
-        '
-        'Label2
-        '
-        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label2.Location = New System.Drawing.Point(666, 156)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(161, 42)
-        Me.Label2.TabIndex = 148
-        Me.Label2.Text = "Mật Khẩu"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label7
-        '
-        Me.Label7.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label7.Location = New System.Drawing.Point(666, 104)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(227, 42)
-        Me.Label7.TabIndex = 147
-        Me.Label7.Text = "Tên Tài Khoản"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
         'Txt_HoVaTen
         '
         Me.Txt_HoVaTen.BorderColor = System.Drawing.Color.SeaGreen
@@ -108,6 +62,7 @@ Partial Class Frm_XemThongTin
         Me.Txt_MaThuThu.Location = New System.Drawing.Point(357, 104)
         Me.Txt_MaThuThu.Multiline = True
         Me.Txt_MaThuThu.Name = "Txt_MaThuThu"
+        Me.Txt_MaThuThu.ReadOnly = True
         Me.Txt_MaThuThu.Size = New System.Drawing.Size(282, 42)
         Me.Txt_MaThuThu.TabIndex = 145
         '
@@ -190,6 +145,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Dtp_NgayLap.BackColor = System.Drawing.Color.SeaGreen
         Me.Dtp_NgayLap.BorderRadius = 0
+        Me.Dtp_NgayLap.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Dtp_NgayLap.ForeColor = System.Drawing.Color.White
         Me.Dtp_NgayLap.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.Dtp_NgayLap.FormatCustom = Nothing
@@ -198,12 +154,13 @@ Partial Class Frm_XemThongTin
         Me.Dtp_NgayLap.Name = "Dtp_NgayLap"
         Me.Dtp_NgayLap.Size = New System.Drawing.Size(282, 42)
         Me.Dtp_NgayLap.TabIndex = 144
-        Me.Dtp_NgayLap.Value = New Date(2018, 6, 8, 0, 0, 0, 0)
+        Me.Dtp_NgayLap.Value = New Date(2019, 5, 5, 0, 0, 0, 0)
         '
         'Dtp_NgaySinh
         '
         Me.Dtp_NgaySinh.BackColor = System.Drawing.Color.SeaGreen
         Me.Dtp_NgaySinh.BorderRadius = 0
+        Me.Dtp_NgaySinh.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Dtp_NgaySinh.ForeColor = System.Drawing.Color.White
         Me.Dtp_NgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.Dtp_NgaySinh.FormatCustom = Nothing
@@ -212,7 +169,7 @@ Partial Class Frm_XemThongTin
         Me.Dtp_NgaySinh.Name = "Dtp_NgaySinh"
         Me.Dtp_NgaySinh.Size = New System.Drawing.Size(282, 42)
         Me.Dtp_NgaySinh.TabIndex = 141
-        Me.Dtp_NgaySinh.Value = New Date(2018, 6, 8, 0, 0, 0, 0)
+        Me.Dtp_NgaySinh.Value = New Date(2019, 5, 5, 0, 0, 0, 0)
         '
         'Label1
         '
@@ -232,7 +189,7 @@ Partial Class Frm_XemThongTin
         Me.Label3.ForeColor = System.Drawing.Color.SeaGreen
         Me.Label3.Location = New System.Drawing.Point(-12, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(441, 70)
+        Me.Label3.Size = New System.Drawing.Size(376, 60)
         Me.Label3.TabIndex = 132
         Me.Label3.Text = "Thông tin cá nhân"
         '
@@ -244,7 +201,7 @@ Partial Class Frm_XemThongTin
         Me.BunifuSeparator1.Location = New System.Drawing.Point(-17, 56)
         Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(1287, 51)
+        Me.BunifuSeparator1.Size = New System.Drawing.Size(722, 51)
         Me.BunifuSeparator1.TabIndex = 133
         Me.BunifuSeparator1.Transparency = 255
         Me.BunifuSeparator1.Vertical = False
@@ -275,7 +232,7 @@ Partial Class Frm_XemThongTin
         Me.Btn_Đong.IconVisible = False
         Me.Btn_Đong.IconZoom = 90.0R
         Me.Btn_Đong.IsTab = False
-        Me.Btn_Đong.Location = New System.Drawing.Point(541, 471)
+        Me.Btn_Đong.Location = New System.Drawing.Point(315, 481)
         Me.Btn_Đong.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Btn_Đong.Name = "Btn_Đong"
         Me.Btn_Đong.Normalcolor = System.Drawing.Color.SeaGreen
@@ -295,7 +252,7 @@ Partial Class Frm_XemThongTin
         Me.Btn_Close.BackColor = System.Drawing.Color.Transparent
         Me.Btn_Close.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
         Me.Btn_Close.ImageActive = Nothing
-        Me.Btn_Close.Location = New System.Drawing.Point(1215, 13)
+        Me.Btn_Close.Location = New System.Drawing.Point(666, 12)
         Me.Btn_Close.Name = "Btn_Close"
         Me.Btn_Close.Size = New System.Drawing.Size(55, 46)
         Me.Btn_Close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -309,7 +266,7 @@ Partial Class Frm_XemThongTin
         Me.MetroLink1.FontSize = MetroFramework.MetroLinkSize.Tall
         Me.MetroLink1.ForeColor = System.Drawing.Color.Red
         Me.MetroLink1.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
-        Me.MetroLink1.Location = New System.Drawing.Point(685, 218)
+        Me.MetroLink1.Location = New System.Drawing.Point(82, 426)
         Me.MetroLink1.Name = "MetroLink1"
         Me.MetroLink1.Size = New System.Drawing.Size(585, 47)
         Me.MetroLink1.TabIndex = 151
@@ -318,14 +275,10 @@ Partial Class Frm_XemThongTin
         '
         'Frm_XemThongTin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1351, 565)
+        Me.ClientSize = New System.Drawing.Size(760, 565)
         Me.Controls.Add(Me.MetroLink1)
-        Me.Controls.Add(Me.Txt_UserName)
-        Me.Controls.Add(Me.Txt_PassWord)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Txt_HoVaTen)
         Me.Controls.Add(Me.Txt_MaThuThu)
         Me.Controls.Add(Me.Txt_DiaChi)
@@ -351,10 +304,6 @@ Partial Class Frm_XemThongTin
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Txt_UserName As WindowsFormsControlLibrary1.BunifuCustomTextbox
-    Friend WithEvents Txt_PassWord As WindowsFormsControlLibrary1.BunifuCustomTextbox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label7 As Label
     Friend WithEvents Txt_HoVaTen As WindowsFormsControlLibrary1.BunifuCustomTextbox
     Friend WithEvents Txt_MaThuThu As WindowsFormsControlLibrary1.BunifuCustomTextbox
     Friend WithEvents Txt_DiaChi As WindowsFormsControlLibrary1.BunifuCustomTextbox

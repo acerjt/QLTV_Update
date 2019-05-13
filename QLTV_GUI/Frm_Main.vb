@@ -2,6 +2,18 @@
 Imports System.Windows.Forms
 
 Public Class Frm_Main
+    Private iNhanVienID As Integer
+
+
+    Property NhanVienID() As Integer
+        Get
+            Return iNhanVienID
+        End Get
+        Set(ByVal Value As Integer)
+            iNhanVienID = Value
+        End Set
+    End Property
+
     Private Sub Btn_Menu_Click(sender As Object, e As EventArgs) Handles Btn_Menu.Click 'menu click
 
         If Pn_Menu.Width = 45 Then
@@ -132,6 +144,7 @@ Public Class Frm_Main
     Private Sub Tile_LapPhieuMuonSach_Click(sender As Object, e As EventArgs) Handles Tile_LapPhieuMuonSach.Click
         Hide()
         Dim frmLapPhieuMuonSach = New Frm_LapPhieuMuonSach()
+        frmLapPhieuMuonSach.NhanVienID() = NhanVienID()
         frmLapPhieuMuonSach.ShowDialog()
         Show()
     End Sub
@@ -139,6 +152,7 @@ Public Class Frm_Main
     Private Sub Tile_NhanTraSach_Click(sender As Object, e As EventArgs) Handles Tile_NhanTraSach.Click
         Hide()
         Dim frmNhanTraSach = New Frm_LapPhieuTraSach()
+        frmNhanTraSach.NhanVienID() = NhanVienID()
         frmNhanTraSach.ShowDialog()
         Show()
     End Sub
@@ -197,13 +211,20 @@ Public Class Frm_Main
     End Sub
 
     Private Sub BunifuFlatButton2_Click(sender As Object, e As EventArgs) Handles Btn_XemThongTin.Click
+        Hide()
         Dim frm_XemThongTin = New Frm_XemThongTin()
+        frm_XemThongTin.NhanVienID() = NhanVienID()
         frm_XemThongTin.ShowDialog()
+        Show()
     End Sub
 
     Private Sub Tile_TaoTK_Click(sender As Object, e As EventArgs) Handles Tile_TaoTK.Click
-        Dim frm_TaoTK = New Form1()
+        Dim frm_TaoTK = New Frm_Register()
         Me.Hide()
         frm_TaoTK.ShowDialog()
+    End Sub
+
+    Private Sub Pn_Admin_Paint(sender As Object, e As PaintEventArgs) Handles Pn_Admin.Paint
+
     End Sub
 End Class

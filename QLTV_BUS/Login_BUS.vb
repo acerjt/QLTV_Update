@@ -16,11 +16,19 @@ Public Class Login_BUS
     Public Function checkUsername(ByRef username As String) As Result
         Return loginDAL.checkUsername(username)
     End Function
-    Public Function insert(dg As Login_DTO) As Result
+    Public Function checkPassword(manhanvien As Integer, ByRef password As String) As Result
+        Return loginDAL.checkPassword(manhanvien, password)
+    End Function
+    Public Function insert(Login As Login_DTO) As Result
         '1. verify data here!!
 
         '2. insert to DB
-        Return loginDAL.Insert(dg)
+        Return loginDAL.Insert(Login)
     End Function
+    Public Function update(Login As Login_DTO) As Result
+        '1. verify data here!!
 
+        '2. insert to DB
+        Return loginDAL.update(Login)
+    End Function
 End Class

@@ -23,13 +23,18 @@ Partial Class Frm_LapPhieuTraSach
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_LapPhieuTraSach))
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.Dgv_ListSachTra = New Bunifu.Framework.UI.BunifuCustomDataGrid()
+        Me.Cl_MaSach = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Cl_TenSach = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Cl_TheLoai = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Cl_TacGia = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Cl_TinhTrang = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Txt_HoVaTen = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -52,11 +57,8 @@ Partial Class Frm_LapPhieuTraSach
         Me.Btn_Close = New Bunifu.Framework.UI.BunifuImageButton()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Cl_MaSach = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Cl_TenSach = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Cl_TheLoai = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Cl_TacGia = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Cl_TinhTrang = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Txt_TenThuThu = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.Dgv_ListSachTra, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Dgv_ListSachDangMuon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,19 +73,19 @@ Partial Class Frm_LapPhieuTraSach
         '
         'Dgv_ListSachTra
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Dgv_ListSachTra.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Dgv_ListSachTra.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle9
         Me.Dgv_ListSachTra.BackgroundColor = System.Drawing.Color.White
         Me.Dgv_ListSachTra.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Dgv_ListSachTra.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dgv_ListSachTra.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.SeaGreen
+        DataGridViewCellStyle10.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dgv_ListSachTra.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle10
         Me.Dgv_ListSachTra.ColumnHeadersHeight = 40
         Me.Dgv_ListSachTra.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Cl_MaSach, Me.Cl_TenSach, Me.Cl_TheLoai, Me.Cl_TacGia, Me.Cl_TinhTrang})
         Me.Dgv_ListSachTra.DoubleBuffered = True
@@ -99,11 +101,50 @@ Partial Class Frm_LapPhieuTraSach
         Me.Dgv_ListSachTra.Size = New System.Drawing.Size(1263, 154)
         Me.Dgv_ListSachTra.TabIndex = 6
         '
+        'Cl_MaSach
+        '
+        Me.Cl_MaSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Cl_MaSach.HeaderText = "Mã Sách"
+        Me.Cl_MaSach.Name = "Cl_MaSach"
+        Me.Cl_MaSach.Width = 137
+        '
+        'Cl_TenSach
+        '
+        Me.Cl_TenSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Cl_TenSach.HeaderText = "Tên Sách"
+        Me.Cl_TenSach.Name = "Cl_TenSach"
+        Me.Cl_TenSach.ReadOnly = True
+        Me.Cl_TenSach.Width = 143
+        '
+        'Cl_TheLoai
+        '
+        Me.Cl_TheLoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Cl_TheLoai.HeaderText = "Thể Loại"
+        Me.Cl_TheLoai.Name = "Cl_TheLoai"
+        Me.Cl_TheLoai.ReadOnly = True
+        Me.Cl_TheLoai.Width = 139
+        '
+        'Cl_TacGia
+        '
+        Me.Cl_TacGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Cl_TacGia.HeaderText = "Tác Giả"
+        Me.Cl_TacGia.Name = "Cl_TacGia"
+        Me.Cl_TacGia.ReadOnly = True
+        Me.Cl_TacGia.Width = 126
+        '
+        'Cl_TinhTrang
+        '
+        Me.Cl_TinhTrang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Cl_TinhTrang.HeaderText = "Tình Trạng"
+        Me.Cl_TinhTrang.Name = "Cl_TinhTrang"
+        Me.Cl_TinhTrang.ReadOnly = True
+        Me.Cl_TinhTrang.Width = 161
+        '
         'Txt_HoVaTen
         '
         Me.Txt_HoVaTen.BorderColor = System.Drawing.Color.SeaGreen
         Me.Txt_HoVaTen.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_HoVaTen.Location = New System.Drawing.Point(1044, 133)
+        Me.Txt_HoVaTen.Location = New System.Drawing.Point(509, 181)
         Me.Txt_HoVaTen.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Txt_HoVaTen.MaximumSize = New System.Drawing.Size(251, 36)
         Me.Txt_HoVaTen.Multiline = True
@@ -116,7 +157,7 @@ Partial Class Frm_LapPhieuTraSach
         '
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label2.Location = New System.Drawing.Point(845, 133)
+        Me.Label2.Location = New System.Drawing.Point(310, 181)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(194, 35)
         Me.Label2.TabIndex = 179
@@ -168,7 +209,7 @@ Partial Class Frm_LapPhieuTraSach
         Me.Dtp_NgayTra.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.Dtp_NgayTra.FormatCustom = Nothing
         Me.Dtp_NgayTra.Location = New System.Drawing.Point(1044, 86)
-        Me.Dtp_NgayTra.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Dtp_NgayTra.Margin = New System.Windows.Forms.Padding(4)
         Me.Dtp_NgayTra.Name = "Dtp_NgayTra"
         Me.Dtp_NgayTra.Size = New System.Drawing.Size(251, 35)
         Me.Dtp_NgayTra.TabIndex = 3
@@ -198,19 +239,19 @@ Partial Class Frm_LapPhieuTraSach
         '
         'Dgv_ListSachDangMuon
         '
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Dgv_ListSachDangMuon.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Dgv_ListSachDangMuon.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle11
         Me.Dgv_ListSachDangMuon.BackgroundColor = System.Drawing.Color.White
         Me.Dgv_ListSachDangMuon.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Dgv_ListSachDangMuon.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.SeaGreen
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Dgv_ListSachDangMuon.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.SeaGreen
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Dgv_ListSachDangMuon.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle12
         Me.Dgv_ListSachDangMuon.ColumnHeadersHeight = 40
         Me.Dgv_ListSachDangMuon.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Cl_MaSach1, Me.Cl_TenSach1, Me.Cl_theloai1, Me.Tacgia, Me.a, Me.sda})
         Me.Dgv_ListSachDangMuon.DoubleBuffered = True
@@ -325,7 +366,7 @@ Partial Class Frm_LapPhieuTraSach
         Me.Btn_NhanTraSach.IconVisible = False
         Me.Btn_NhanTraSach.IconZoom = 90.0R
         Me.Btn_NhanTraSach.IsTab = False
-        Me.Btn_NhanTraSach.Location = New System.Drawing.Point(681, 746)
+        Me.Btn_NhanTraSach.Location = New System.Drawing.Point(680, 757)
         Me.Btn_NhanTraSach.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Btn_NhanTraSach.Name = "Btn_NhanTraSach"
         Me.Btn_NhanTraSach.Normalcolor = System.Drawing.Color.SeaGreen
@@ -358,7 +399,7 @@ Partial Class Frm_LapPhieuTraSach
         Me.GroupBox1.Controls.Add(Me.Dgv_ListSachDangMuon)
         Me.GroupBox1.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.SeaGreen
-        Me.GroupBox1.Location = New System.Drawing.Point(70, 200)
+        Me.GroupBox1.Location = New System.Drawing.Point(70, 259)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -372,7 +413,7 @@ Partial Class Frm_LapPhieuTraSach
         Me.GroupBox2.Controls.Add(Me.Dgv_ListSachTra)
         Me.GroupBox2.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.SeaGreen
-        Me.GroupBox2.Location = New System.Drawing.Point(70, 475)
+        Me.GroupBox2.Location = New System.Drawing.Point(70, 507)
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -381,44 +422,29 @@ Partial Class Frm_LapPhieuTraSach
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Danh sách các SÁCH trả:"
         '
-        'Cl_MaSach
+        'Txt_TenThuThu
         '
-        Me.Cl_MaSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Cl_MaSach.HeaderText = "Mã Sách"
-        Me.Cl_MaSach.Name = "Cl_MaSach"
-        Me.Cl_MaSach.Width = 137
+        Me.Txt_TenThuThu.BorderColor = System.Drawing.Color.SeaGreen
+        Me.Txt_TenThuThu.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Txt_TenThuThu.Location = New System.Drawing.Point(1044, 134)
+        Me.Txt_TenThuThu.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Txt_TenThuThu.MaximumSize = New System.Drawing.Size(251, 36)
+        Me.Txt_TenThuThu.Multiline = True
+        Me.Txt_TenThuThu.Name = "Txt_TenThuThu"
+        Me.Txt_TenThuThu.ReadOnly = True
+        Me.Txt_TenThuThu.Size = New System.Drawing.Size(251, 36)
+        Me.Txt_TenThuThu.TabIndex = 187
         '
-        'Cl_TenSach
+        'Label1
         '
-        Me.Cl_TenSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Cl_TenSach.HeaderText = "Tên Sách"
-        Me.Cl_TenSach.Name = "Cl_TenSach"
-        Me.Cl_TenSach.ReadOnly = True
-        Me.Cl_TenSach.Width = 143
-        '
-        'Cl_TheLoai
-        '
-        Me.Cl_TheLoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Cl_TheLoai.HeaderText = "Thể Loại"
-        Me.Cl_TheLoai.Name = "Cl_TheLoai"
-        Me.Cl_TheLoai.ReadOnly = True
-        Me.Cl_TheLoai.Width = 139
-        '
-        'Cl_TacGia
-        '
-        Me.Cl_TacGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Cl_TacGia.HeaderText = "Tác Giả"
-        Me.Cl_TacGia.Name = "Cl_TacGia"
-        Me.Cl_TacGia.ReadOnly = True
-        Me.Cl_TacGia.Width = 126
-        '
-        'Cl_TinhTrang
-        '
-        Me.Cl_TinhTrang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Cl_TinhTrang.HeaderText = "Tình Trạng"
-        Me.Cl_TinhTrang.Name = "Cl_TinhTrang"
-        Me.Cl_TinhTrang.ReadOnly = True
-        Me.Cl_TinhTrang.Width = 161
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.SeaGreen
+        Me.Label1.Location = New System.Drawing.Point(845, 134)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(174, 35)
+        Me.Label1.TabIndex = 188
+        Me.Label1.Text = "Thủ Thư"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Frm_LapPhieuTraSach
         '
@@ -427,6 +453,8 @@ Partial Class Frm_LapPhieuTraSach
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1694, 838)
+        Me.Controls.Add(Me.Txt_TenThuThu)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Btn_NhanTraSach)
@@ -486,4 +514,6 @@ Partial Class Frm_LapPhieuTraSach
     Friend WithEvents Cl_TheLoai As DataGridViewTextBoxColumn
     Friend WithEvents Cl_TacGia As DataGridViewTextBoxColumn
     Friend WithEvents Cl_TinhTrang As DataGridViewTextBoxColumn
+    Friend WithEvents Txt_TenThuThu As WindowsFormsControlLibrary1.BunifuCustomTextbox
+    Friend WithEvents Label1 As Label
 End Class

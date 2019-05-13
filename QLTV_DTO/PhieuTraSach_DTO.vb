@@ -4,6 +4,7 @@
     Private iMaTraSach As Integer
     Private iMaDocGia As Integer
     Private dateNgayTra As DateTime
+    Private iMaNhanVien As Integer
 
     'Private lsCTPMS As List(Of ChiTietPhieuMuonSach_DTO)
 
@@ -43,6 +44,13 @@
             dateNgayTra = Value
         End Set
     End Property
-
+    Property MaNhanVien() As Integer
+        Get
+            Return iMaNhanVien
+        End Get
+        Set(ByVal Value As Integer)
+            iMaNhanVien = Value
+        End Set
+    End Property
 
 End Class

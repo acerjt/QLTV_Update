@@ -1,73 +1,20 @@
-﻿Public Class Frm_XemThongTin
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+﻿Imports QLTV_BUS
+Imports QLTV_DTO
+Imports Utility
+Public Class Frm_XemThongTin
+    Private iNhanVienID As Integer
+    Private nvBus As NhanVien_BUS
 
-    End Sub
+    Property NhanVienID() As Integer
+        Get
+            Return iNhanVienID
+        End Get
+        Set(ByVal Value As Integer)
+            iNhanVienID = Value
+        End Set
+    End Property
 
 
-
-    Private Sub Txt_UserName_TextChanged(sender As Object, e As EventArgs) Handles Txt_UserName.TextChanged
-
-    End Sub
-
-    Private Sub Txt_PassWord_TextChanged(sender As Object, e As EventArgs) Handles Txt_PassWord.TextChanged
-
-    End Sub
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
-    End Sub
-
-    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
-
-    End Sub
-
-    Private Sub Txt_HoVaTen_TextChanged(sender As Object, e As EventArgs) Handles Txt_HoVaTen.TextChanged
-
-    End Sub
-
-    Private Sub Txt_MaThuThu_TextChanged(sender As Object, e As EventArgs) Handles Txt_MaThuThu.TextChanged
-
-    End Sub
-
-    Private Sub Txt_DiaChi_TextChanged(sender As Object, e As EventArgs) Handles Txt_DiaChi.TextChanged
-
-    End Sub
-
-    Private Sub Txt_Email_TextChanged(sender As Object, e As EventArgs) Handles Txt_Email.TextChanged
-
-    End Sub
-
-    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
-
-    End Sub
-
-    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
-
-    End Sub
-
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-
-    End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
-    End Sub
-
-    Private Sub Dtp_NgayLap_onValueChanged(sender As Object, e As EventArgs) Handles Dtp_NgayLap.onValueChanged
-
-    End Sub
-
-    Private Sub Dtp_NgaySinh_onValueChanged(sender As Object, e As EventArgs) Handles Dtp_NgaySinh.onValueChanged
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
 
     Private Sub BunifuSeparator1_Load(sender As Object, e As EventArgs) Handles BunifuSeparator1.Load
 
@@ -84,6 +31,26 @@
     Private Sub MetroLink1_Click(sender As Object, e As EventArgs) Handles MetroLink1.Click
         Hide()
         Dim frm_DoiMatKhau = New Frm_DoiMatKhau()
+        frm_DoiMatKhau.NhanVienID = NhanVienID
         frm_DoiMatKhau.ShowDialog()
+        Show()
+    End Sub
+
+    Private Sub Frm_XemThongTin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Hide()
+        Dim NhanVienDTO As NhanVien_DTO
+        NhanVienDTO = New NhanVien_DTO()
+        nvBus = New NhanVien_BUS()
+        Dim Result As Result
+        Result = nvBus.loadnhanvien(NhanVienID(), NhanVienDTO)
+        If (Result.FlagResult = True) Then
+            Txt_MaThuThu.Text = NhanVienDTO.MaNhanVien
+            Txt_HoVaTen.Text = NhanVienDTO.HoVaTen
+            Txt_Email.Text = NhanVienDTO.Email
+            Txt_DiaChi.Text = NhanVienDTO.DiaChi
+            Dtp_NgayLap.Value = NhanVienDTO.NgayLap
+            Dtp_NgaySinh.Value = NhanVienDTO.NgaySinh
+        End If
+
     End Sub
 End Class

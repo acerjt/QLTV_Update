@@ -2,6 +2,7 @@
 Imports QLTV_DTO
 Imports Utility
 Public Class Frm_LapPhieuMuonSach
+    Private iNhanVienID As Integer
     Private PhieuMuonSachBus As PhieuMuonSach_BUS
     Private DocGiaBus As DocGia_BUS
     Private SachBus As Sach_BUS
@@ -9,16 +10,26 @@ Public Class Frm_LapPhieuMuonSach
     Private ChiTietPhieuMuonSachBUS As ChiTietPhieuMuonSach_BUS
     Private listChiTietPhieuMuonSach As List(Of Sach_DTO)
     Private listChiTietPhieuMuonSach1 As List(Of ChiTietPhieuMuonSach_DTO)
+    Private NhanVienBUS As NhanVien_BUS
+    Property NhanVienID() As Integer
+        Get
+            Return iNhanVienID
+        End Get
+        Set(ByVal Value As Integer)
+            iNhanVienID = Value
+        End Set
+    End Property
     Private Sub Frm_LapPhieuMuonSach_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PhieuMuonSachBus = New PhieuMuonSach_BUS()
         DocGiaBus = New DocGia_BUS()
         SachBus = New Sach_BUS()
         QuyDinhBUS = New QuyDinh_BUS()
+        NhanVienBUS = New NhanVien_BUS()
         ChiTietPhieuMuonSachBUS = New ChiTietPhieuMuonSach_BUS()
         listChiTietPhieuMuonSach = New List(Of Sach_DTO)
         listChiTietPhieuMuonSach1 = New List(Of ChiTietPhieuMuonSach_DTO)
         Dim listSach = New List(Of Sach_DTO)
-
+        Dim NhanVien = New NhanVien_DTO()
         Dtp_NgayMuon.Value = DateTime.Now
         Dim result As Result
         'set MSSH auto
@@ -32,6 +43,15 @@ Public Class Frm_LapPhieuMuonSach
             Return
         End If
         Txt_MaPhieuMuonSach.Text = nextMaPhieuMuonSach
+        result = NhanVienBUS.selectHoVaTen(NhanVienID, NhanVien)
+        If (result.FlagResult = False) Then
+            Frm_Information.m.Text = "Lấy thông tin thủ thư không thành công."
+            Frm_Information.ShowDialog()
+            System.Console.WriteLine(result.SystemMessage)
+            Return
+        Else
+            Txt_TenThuThu.Text = NhanVien.HoVaTen
+        End If
     End Sub
     Private Sub loadListDocGia(ByRef MaDocGia As Integer)
         Dim Dg As DocGia_DTO
@@ -252,15 +272,15 @@ Public Class Frm_LapPhieuMuonSach
                 'Dgv_ListPhieuMuonSach.Item("Cl_NgayDuKienTra", e.RowIndex).Value = Chitietphieumuonsach.NgayDuKien
                 ' Dgv_ListPhieuMuonSach.Item("Cl_STT", e.RowIndex).Value = e.RowIndex + 1
                 If (listChiTietPhieuMuonSach1.Count() = e.RowIndex) Then
+                    listChiTietPhieuMuonSach1.Add(New ChiTietPhieuMuonSach_DTO(Txt_MaPhieuMuonSach.Text, x))
+                Else
+                    If (listChiTietPhieuMuonSach1.Count() > e.RowIndex) Then
+                        listChiTietPhieuMuonSach1.RemoveAt(e.RowIndex)
                         listChiTietPhieuMuonSach1.Add(New ChiTietPhieuMuonSach_DTO(Txt_MaPhieuMuonSach.Text, x))
-                    Else
-                        If (listChiTietPhieuMuonSach1.Count() > e.RowIndex) Then
-                            listChiTietPhieuMuonSach1.RemoveAt(e.RowIndex)
-                            listChiTietPhieuMuonSach1.Add(New ChiTietPhieuMuonSach_DTO(Txt_MaPhieuMuonSach.Text, x))
-                        End If
                     End If
                 End If
             End If
+        End If
 
 
 
@@ -286,7 +306,7 @@ Public Class Frm_LapPhieuMuonSach
         PhieuMuonSach.MaDocGia = Txt_MaDocGia.Text
         PhieuMuonSach.NgayMuon = Dtp_NgayMuon.Value
         PhieuMuonSach.NgayDuKienTra = Dtp_NgayMuon.Value.AddDays(Quydinh.SoNgayMuonToiDa)
-
+        PhieuMuonSach.MaNhanVien = NhanVienID()
         '2. Business .....
         If (PhieuMuonSachBus.isValidMaDocGia(PhieuMuonSach) = False) Then
             Frm_Information.m.Text = "Mã độc giả không được trống."

@@ -54,13 +54,13 @@ Partial Class Frm_QLDocGia
         Me.Cb_LoaiDocGiaCapNhap = New System.Windows.Forms.ComboBox()
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.Dgv_ListDocGia = New Bunifu.Framework.UI.BunifuCustomDataGrid()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.d = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Ngay = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Ngay = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.d = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Dgv_ListDocGia, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -457,45 +457,13 @@ Partial Class Frm_QLDocGia
         Me.Dgv_ListDocGia.Size = New System.Drawing.Size(1349, 267)
         Me.Dgv_ListDocGia.TabIndex = 2
         '
-        'Column5
+        'Column1
         '
-        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Column5.HeaderText = "Ngày Hết Hạn"
-        Me.Column5.Name = "Column5"
-        Me.Column5.ReadOnly = True
-        Me.Column5.Width = 177
-        '
-        'd
-        '
-        Me.d.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.d.HeaderText = "Ngày Lập"
-        Me.d.Name = "d"
-        Me.d.ReadOnly = True
-        Me.d.Width = 134
-        '
-        'Column4
-        '
-        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Column4.HeaderText = "Email"
-        Me.Column4.Name = "Column4"
-        Me.Column4.ReadOnly = True
-        Me.Column4.Width = 95
-        '
-        'Column3
-        '
-        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Column3.HeaderText = "Địa Chỉ"
-        Me.Column3.Name = "Column3"
-        Me.Column3.ReadOnly = True
-        Me.Column3.Width = 113
-        '
-        'Ngay
-        '
-        Me.Ngay.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Ngay.HeaderText = "Ngày Sinh"
-        Me.Ngay.Name = "Ngay"
-        Me.Ngay.ReadOnly = True
-        Me.Ngay.Width = 138
+        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Column1.HeaderText = "Mã Độc Giả"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.Width = 157
         '
         'Column2
         '
@@ -505,13 +473,45 @@ Partial Class Frm_QLDocGia
         Me.Column2.ReadOnly = True
         Me.Column2.Width = 144
         '
-        'Column1
+        'Ngay
         '
-        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Column1.HeaderText = "Mã Độc Giả"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
-        Me.Column1.Width = 157
+        Me.Ngay.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Ngay.HeaderText = "Ngày Sinh"
+        Me.Ngay.Name = "Ngay"
+        Me.Ngay.ReadOnly = True
+        Me.Ngay.Width = 138
+        '
+        'Column3
+        '
+        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Column3.HeaderText = "Địa Chỉ"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        Me.Column3.Width = 113
+        '
+        'Column4
+        '
+        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Column4.HeaderText = "Email"
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        Me.Column4.Width = 95
+        '
+        'd
+        '
+        Me.d.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.d.HeaderText = "Ngày Lập"
+        Me.d.Name = "d"
+        Me.d.ReadOnly = True
+        Me.d.Width = 134
+        '
+        'Column5
+        '
+        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Column5.HeaderText = "Ngày Hết Hạn"
+        Me.Column5.Name = "Column5"
+        Me.Column5.ReadOnly = True
+        Me.Column5.Width = 177
         '
         'Frm_QLDocGia
         '

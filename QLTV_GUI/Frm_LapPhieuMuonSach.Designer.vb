@@ -49,15 +49,17 @@ Partial Class Frm_LapPhieuMuonSach
         Me.Txt_HoVaTen = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Dgv_ListPhieuMuonSach = New Bunifu.Framework.UI.BunifuCustomDataGrid()
-        Me.Btn_LapPhieu = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.Btn_Close = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Cl_MaSach = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Cl_TenSach = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Cl_TheLoai = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Cl_TacGia = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Cl_TinhTrang = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Btn_LapPhieu = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.Btn_Close = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Txt_TenThuThu = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
+        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.Dgv_ListPhieuMuonSach1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Dgv_ListPhieuMuonSach, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -218,7 +220,7 @@ Partial Class Frm_LapPhieuMuonSach
         Me.Dtp_NgayMuon.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.Dtp_NgayMuon.FormatCustom = Nothing
         Me.Dtp_NgayMuon.Location = New System.Drawing.Point(1026, 88)
-        Me.Dtp_NgayMuon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Dtp_NgayMuon.Margin = New System.Windows.Forms.Padding(4)
         Me.Dtp_NgayMuon.Name = "Dtp_NgayMuon"
         Me.Dtp_NgayMuon.Size = New System.Drawing.Size(251, 35)
         Me.Dtp_NgayMuon.TabIndex = 4
@@ -250,7 +252,7 @@ Partial Class Frm_LapPhieuMuonSach
         '
         Me.Txt_TinhTrangThe.BorderColor = System.Drawing.Color.SeaGreen
         Me.Txt_TinhTrangThe.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_TinhTrangThe.Location = New System.Drawing.Point(1026, 130)
+        Me.Txt_TinhTrangThe.Location = New System.Drawing.Point(1026, 128)
         Me.Txt_TinhTrangThe.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Txt_TinhTrangThe.MaximumSize = New System.Drawing.Size(251, 36)
         Me.Txt_TinhTrangThe.Multiline = True
@@ -323,6 +325,45 @@ Partial Class Frm_LapPhieuMuonSach
         Me.Dgv_ListPhieuMuonSach.RowTemplate.Height = 28
         Me.Dgv_ListPhieuMuonSach.Size = New System.Drawing.Size(1207, 180)
         Me.Dgv_ListPhieuMuonSach.TabIndex = 7
+        '
+        'Cl_MaSach
+        '
+        Me.Cl_MaSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Cl_MaSach.HeaderText = "Mã Sách"
+        Me.Cl_MaSach.Name = "Cl_MaSach"
+        Me.Cl_MaSach.Width = 137
+        '
+        'Cl_TenSach
+        '
+        Me.Cl_TenSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Cl_TenSach.HeaderText = "Tên Sách"
+        Me.Cl_TenSach.Name = "Cl_TenSach"
+        Me.Cl_TenSach.ReadOnly = True
+        Me.Cl_TenSach.Width = 143
+        '
+        'Cl_TheLoai
+        '
+        Me.Cl_TheLoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Cl_TheLoai.HeaderText = "Thể Loại"
+        Me.Cl_TheLoai.Name = "Cl_TheLoai"
+        Me.Cl_TheLoai.ReadOnly = True
+        Me.Cl_TheLoai.Width = 139
+        '
+        'Cl_TacGia
+        '
+        Me.Cl_TacGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Cl_TacGia.HeaderText = "Tác Giả"
+        Me.Cl_TacGia.Name = "Cl_TacGia"
+        Me.Cl_TacGia.ReadOnly = True
+        Me.Cl_TacGia.Width = 126
+        '
+        'Cl_TinhTrang
+        '
+        Me.Cl_TinhTrang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Cl_TinhTrang.HeaderText = "Tình Trạng"
+        Me.Cl_TinhTrang.Name = "Cl_TinhTrang"
+        Me.Cl_TinhTrang.ReadOnly = True
+        Me.Cl_TinhTrang.Width = 161
         '
         'Btn_LapPhieu
         '
@@ -401,44 +442,29 @@ Partial Class Frm_LapPhieuMuonSach
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Danh sách các SÁCH cần mượn:"
         '
-        'Cl_MaSach
+        'Txt_TenThuThu
         '
-        Me.Cl_MaSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Cl_MaSach.HeaderText = "Mã Sách"
-        Me.Cl_MaSach.Name = "Cl_MaSach"
-        Me.Cl_MaSach.Width = 137
+        Me.Txt_TenThuThu.BorderColor = System.Drawing.Color.SeaGreen
+        Me.Txt_TenThuThu.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Txt_TenThuThu.Location = New System.Drawing.Point(1026, 168)
+        Me.Txt_TenThuThu.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Txt_TenThuThu.MaximumSize = New System.Drawing.Size(251, 36)
+        Me.Txt_TenThuThu.Multiline = True
+        Me.Txt_TenThuThu.Name = "Txt_TenThuThu"
+        Me.Txt_TenThuThu.ReadOnly = True
+        Me.Txt_TenThuThu.Size = New System.Drawing.Size(251, 36)
+        Me.Txt_TenThuThu.TabIndex = 180
         '
-        'Cl_TenSach
+        'Label5
         '
-        Me.Cl_TenSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Cl_TenSach.HeaderText = "Tên Sách"
-        Me.Cl_TenSach.Name = "Cl_TenSach"
-        Me.Cl_TenSach.ReadOnly = True
-        Me.Cl_TenSach.Width = 143
-        '
-        'Cl_TheLoai
-        '
-        Me.Cl_TheLoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Cl_TheLoai.HeaderText = "Thể Loại"
-        Me.Cl_TheLoai.Name = "Cl_TheLoai"
-        Me.Cl_TheLoai.ReadOnly = True
-        Me.Cl_TheLoai.Width = 139
-        '
-        'Cl_TacGia
-        '
-        Me.Cl_TacGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Cl_TacGia.HeaderText = "Tác Giả"
-        Me.Cl_TacGia.Name = "Cl_TacGia"
-        Me.Cl_TacGia.ReadOnly = True
-        Me.Cl_TacGia.Width = 126
-        '
-        'Cl_TinhTrang
-        '
-        Me.Cl_TinhTrang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Cl_TinhTrang.HeaderText = "Tình Trạng"
-        Me.Cl_TinhTrang.Name = "Cl_TinhTrang"
-        Me.Cl_TinhTrang.ReadOnly = True
-        Me.Cl_TinhTrang.Width = 161
+        Me.Label5.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.SeaGreen
+        Me.Label5.Location = New System.Drawing.Point(815, 170)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(194, 35)
+        Me.Label5.TabIndex = 181
+        Me.Label5.Text = "Thủ Thư"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Frm_LapPhieuMuonSach
         '
@@ -447,8 +473,10 @@ Partial Class Frm_LapPhieuMuonSach
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1568, 838)
+        Me.Controls.Add(Me.Txt_TenThuThu)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Btn_LapPhieu)
         Me.Controls.Add(Me.Txt_HoVaTen)
         Me.Controls.Add(Me.Label2)
@@ -508,4 +536,6 @@ Partial Class Frm_LapPhieuMuonSach
     Friend WithEvents Cl_TheLoai As DataGridViewTextBoxColumn
     Friend WithEvents Cl_TacGia As DataGridViewTextBoxColumn
     Friend WithEvents Cl_TinhTrang As DataGridViewTextBoxColumn
+    Friend WithEvents Txt_TenThuThu As WindowsFormsControlLibrary1.BunifuCustomTextbox
+    Friend WithEvents Label5 As Label
 End Class
