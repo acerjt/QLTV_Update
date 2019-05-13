@@ -207,7 +207,7 @@ Public Class Frm_Main
         'Pn_Main.Dock = DockStyle.None
         'Me.Size = New Size(1300, 900)
         ' Pn_Main.Dock = DockStyle.Fill
-        Pn_Admin.Hide()
+        ' Pn_Admin.Hide()
     End Sub
 
     Private Sub BunifuFlatButton2_Click(sender As Object, e As EventArgs) Handles Btn_XemThongTin.Click
@@ -224,7 +224,5 @@ Public Class Frm_Main
         frm_TaoTK.ShowDialog()
     End Sub
 
-    Private Sub Pn_Admin_Paint(sender As Object, e As PaintEventArgs) Handles Pn_Admin.Paint
 
-    End Sub
 End Class

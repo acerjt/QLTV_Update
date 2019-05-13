@@ -16,14 +16,25 @@ Public Class Frm_Login
         Login.Username = Txt_UserName.Text
         Login.Password = Txt_PassWord.Text
         If Txt_Username.Text = My.Settings.AdminUser And Txt_Password.Text = My.Settings.AdminPass Then
-            Hide()
-            Dim frmRegrister = New Frm_Register()
-            frmRegrister.ShowDialog()
-            If (frmRegrister.DialogResult = DialogResult.Cancel) Then
-                Show()
-            ElseIf (frmRegrister.DialogResult = DialogResult.No) Then
-                Return
-            End If
+            'Hide()
+            'Dim frmRegrister = New Frm_Register()
+            'frmRegrister.ShowDialog()
+            'If (frmRegrister.DialogResult = DialogResult.Cancel) Then
+            '    Show()
+            'ElseIf (frmRegrister.DialogResult = DialogResult.No) Then
+            '    Return
+            'End If
+            'Hide()
+
+            Dim frmMain = New Frm_Main()
+
+            frmMain.AutoSize = False
+            frmMain.Btn_Close.Location = New Point(645, 3)
+            frmMain.Size = New Size(900, 400)
+            '  frmMain.Pn_Admin.Show()
+            frmMain.BunifuSeparator1.Size = New Size(650, 35)
+            frmMain.ShowDialog()
+
         Else
             Dim result As Result
             result = LoginBUS.getNextID(Login)
@@ -32,6 +43,7 @@ Public Class Frm_Login
                 Hide()
                 Dim frmMain = New Frm_Main()
                 frmMain.NhanVienID() = Login.ID
+                frmMain.Pn_Admin.Hide()
                 frmMain.ShowDialog()
 
                 If (frmMain.DialogResult = DialogResult.Cancel) Then
@@ -62,9 +74,5 @@ Public Class Frm_Login
         Application.Exit()
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        Dim frm_Form1 = New Frm_Register()
-        frm_Form1.ShowDialog()
 
-    End Sub
 End Class

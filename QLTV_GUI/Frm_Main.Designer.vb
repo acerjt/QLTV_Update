@@ -80,7 +80,7 @@ Partial Class Frm_Main
         Me.Pn_Menu.Location = New System.Drawing.Point(0, 0)
         Me.Pn_Menu.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Pn_Menu.Name = "Pn_Menu"
-        Me.Pn_Menu.Size = New System.Drawing.Size(213, 875)
+        Me.Pn_Menu.Size = New System.Drawing.Size(240, 1094)
         Me.Pn_Menu.TabIndex = 1
         '
         'Btn_XemThongTin
@@ -107,14 +107,14 @@ Partial Class Frm_Main
         Me.Btn_XemThongTin.IconVisible = True
         Me.Btn_XemThongTin.IconZoom = 50.0R
         Me.Btn_XemThongTin.IsTab = False
-        Me.Btn_XemThongTin.Location = New System.Drawing.Point(6, 168)
-        Me.Btn_XemThongTin.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_XemThongTin.Location = New System.Drawing.Point(7, 210)
+        Me.Btn_XemThongTin.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Btn_XemThongTin.Name = "Btn_XemThongTin"
         Me.Btn_XemThongTin.Normalcolor = System.Drawing.Color.Transparent
         Me.Btn_XemThongTin.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Btn_XemThongTin.OnHoverTextColor = System.Drawing.Color.White
         Me.Btn_XemThongTin.selected = False
-        Me.Btn_XemThongTin.Size = New System.Drawing.Size(199, 45)
+        Me.Btn_XemThongTin.Size = New System.Drawing.Size(224, 56)
         Me.Btn_XemThongTin.TabIndex = 13
         Me.Btn_XemThongTin.Text = "Thông tin"
         Me.Btn_XemThongTin.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -145,14 +145,14 @@ Partial Class Frm_Main
         Me.btn_GioiThieu.IconVisible = True
         Me.btn_GioiThieu.IconZoom = 50.0R
         Me.btn_GioiThieu.IsTab = False
-        Me.btn_GioiThieu.Location = New System.Drawing.Point(6, 338)
-        Me.btn_GioiThieu.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_GioiThieu.Location = New System.Drawing.Point(7, 422)
+        Me.btn_GioiThieu.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_GioiThieu.Name = "btn_GioiThieu"
         Me.btn_GioiThieu.Normalcolor = System.Drawing.Color.Transparent
         Me.btn_GioiThieu.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btn_GioiThieu.OnHoverTextColor = System.Drawing.Color.White
         Me.btn_GioiThieu.selected = False
-        Me.btn_GioiThieu.Size = New System.Drawing.Size(196, 37)
+        Me.btn_GioiThieu.Size = New System.Drawing.Size(220, 46)
         Me.btn_GioiThieu.TabIndex = 12
         Me.btn_GioiThieu.Text = "Giới Thiệu"
         Me.btn_GioiThieu.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -183,14 +183,14 @@ Partial Class Frm_Main
         Me.BunifuFlatButton1.IconVisible = True
         Me.BunifuFlatButton1.IconZoom = 50.0R
         Me.BunifuFlatButton1.IsTab = False
-        Me.BunifuFlatButton1.Location = New System.Drawing.Point(4, 286)
-        Me.BunifuFlatButton1.Margin = New System.Windows.Forms.Padding(4)
+        Me.BunifuFlatButton1.Location = New System.Drawing.Point(4, 358)
+        Me.BunifuFlatButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BunifuFlatButton1.Name = "BunifuFlatButton1"
         Me.BunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.BunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White
         Me.BunifuFlatButton1.selected = False
-        Me.BunifuFlatButton1.Size = New System.Drawing.Size(199, 45)
+        Me.BunifuFlatButton1.Size = New System.Drawing.Size(224, 56)
         Me.BunifuFlatButton1.TabIndex = 11
         Me.BunifuFlatButton1.Text = "Trợ Giúp"
         Me.BunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -221,14 +221,14 @@ Partial Class Frm_Main
         Me.MenuMain.IconVisible = True
         Me.MenuMain.IconZoom = 50.0R
         Me.MenuMain.IsTab = False
-        Me.MenuMain.Location = New System.Drawing.Point(4, 116)
-        Me.MenuMain.Margin = New System.Windows.Forms.Padding(4)
+        Me.MenuMain.Location = New System.Drawing.Point(4, 145)
+        Me.MenuMain.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MenuMain.Name = "MenuMain"
         Me.MenuMain.Normalcolor = System.Drawing.Color.Transparent
         Me.MenuMain.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.MenuMain.OnHoverTextColor = System.Drawing.Color.White
         Me.MenuMain.selected = False
-        Me.MenuMain.Size = New System.Drawing.Size(198, 44)
+        Me.MenuMain.Size = New System.Drawing.Size(223, 55)
         Me.MenuMain.TabIndex = 8
         Me.MenuMain.Text = " Trang Chủ"
         Me.MenuMain.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -259,14 +259,14 @@ Partial Class Frm_Main
         Me.MenuDocGia.IconVisible = True
         Me.MenuDocGia.IconZoom = 50.0R
         Me.MenuDocGia.IsTab = False
-        Me.MenuDocGia.Location = New System.Drawing.Point(7, 221)
-        Me.MenuDocGia.Margin = New System.Windows.Forms.Padding(4)
+        Me.MenuDocGia.Location = New System.Drawing.Point(8, 276)
+        Me.MenuDocGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MenuDocGia.Name = "MenuDocGia"
         Me.MenuDocGia.Normalcolor = System.Drawing.Color.Transparent
         Me.MenuDocGia.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.MenuDocGia.OnHoverTextColor = System.Drawing.Color.White
         Me.MenuDocGia.selected = False
-        Me.MenuDocGia.Size = New System.Drawing.Size(196, 44)
+        Me.MenuDocGia.Size = New System.Drawing.Size(220, 55)
         Me.MenuDocGia.TabIndex = 7
         Me.MenuDocGia.Text = "Đăng Xuất"
         Me.MenuDocGia.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -280,10 +280,10 @@ Partial Class Frm_Main
         Me.PanelAnimator.SetDecoration(Me.Btn_Menu, BunifuAnimatorNS.DecorationType.None)
         Me.Btn_Menu.Image = Global.QLTV_GUI.My.Resources.Resources.icons8_menu_32
         Me.Btn_Menu.ImageActive = Nothing
-        Me.Btn_Menu.Location = New System.Drawing.Point(153, 10)
+        Me.Btn_Menu.Location = New System.Drawing.Point(172, 12)
         Me.Btn_Menu.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_Menu.Name = "Btn_Menu"
-        Me.Btn_Menu.Size = New System.Drawing.Size(42, 40)
+        Me.Btn_Menu.Size = New System.Drawing.Size(47, 50)
         Me.Btn_Menu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Btn_Menu.TabIndex = 1
         Me.Btn_Menu.TabStop = False
@@ -333,10 +333,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Pn_Main, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Pn_Main, BunifuAnimatorNS.DecorationType.None)
         Me.Pn_Main.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_Main.Location = New System.Drawing.Point(213, 0)
+        Me.Pn_Main.Location = New System.Drawing.Point(240, 0)
         Me.Pn_Main.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Pn_Main.Name = "Pn_Main"
-        Me.Pn_Main.Size = New System.Drawing.Size(1263, 875)
+        Me.Pn_Main.Size = New System.Drawing.Size(1420, 1094)
         Me.Pn_Main.TabIndex = 2
         '
         'Pn_Admin
@@ -347,10 +347,10 @@ Partial Class Frm_Main
         Me.Pn_Admin.Controls.Add(Me.Tile_QuyDinh)
         Me.PanelAnimator1.SetDecoration(Me.Pn_Admin, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Pn_Admin, BunifuAnimatorNS.DecorationType.None)
-        Me.Pn_Admin.Location = New System.Drawing.Point(5, 70)
+        Me.Pn_Admin.Location = New System.Drawing.Point(6, 88)
         Me.Pn_Admin.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Pn_Admin.Name = "Pn_Admin"
-        Me.Pn_Admin.Size = New System.Drawing.Size(1129, 427)
+        Me.Pn_Admin.Size = New System.Drawing.Size(1270, 534)
         Me.Pn_Admin.TabIndex = 61
         '
         'Tile_TaoTK
@@ -360,10 +360,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_TaoTK, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_TaoTK, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_TaoTK.ForeColor = System.Drawing.Color.White
-        Me.Tile_TaoTK.Location = New System.Drawing.Point(19, 98)
-        Me.Tile_TaoTK.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_TaoTK.Location = New System.Drawing.Point(31, 57)
+        Me.Tile_TaoTK.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_TaoTK.Name = "Tile_TaoTK"
-        Me.Tile_TaoTK.Size = New System.Drawing.Size(192, 310)
+        Me.Tile_TaoTK.Size = New System.Drawing.Size(216, 388)
         Me.Tile_TaoTK.TabIndex = 62
         Me.Tile_TaoTK.Text = "Tạo Tài Khoản"
         Me.Tile_TaoTK.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_add_user_group_woman_man_80
@@ -383,10 +383,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_BaoCaoTheoTheLoai, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_BaoCaoTheoTheLoai, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_BaoCaoTheoTheLoai.ForeColor = System.Drawing.Color.White
-        Me.Tile_BaoCaoTheoTheLoai.Location = New System.Drawing.Point(248, 98)
-        Me.Tile_BaoCaoTheoTheLoai.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_BaoCaoTheoTheLoai.Location = New System.Drawing.Point(306, 57)
+        Me.Tile_BaoCaoTheoTheLoai.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_BaoCaoTheoTheLoai.Name = "Tile_BaoCaoTheoTheLoai"
-        Me.Tile_BaoCaoTheoTheLoai.Size = New System.Drawing.Size(389, 126)
+        Me.Tile_BaoCaoTheoTheLoai.Size = New System.Drawing.Size(438, 158)
         Me.Tile_BaoCaoTheoTheLoai.TabIndex = 59
         Me.Tile_BaoCaoTheoTheLoai.Text = "Báo Cáo Thống Kê Theo Thể Loại"
         Me.Tile_BaoCaoTheoTheLoai.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_pie_chart_80
@@ -406,10 +406,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_BaoCaoSachTraTre.ForeColor = System.Drawing.Color.White
-        Me.Tile_BaoCaoSachTraTre.Location = New System.Drawing.Point(248, 240)
-        Me.Tile_BaoCaoSachTraTre.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_BaoCaoSachTraTre.Location = New System.Drawing.Point(306, 235)
+        Me.Tile_BaoCaoSachTraTre.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_BaoCaoSachTraTre.Name = "Tile_BaoCaoSachTraTre"
-        Me.Tile_BaoCaoSachTraTre.Size = New System.Drawing.Size(389, 168)
+        Me.Tile_BaoCaoSachTraTre.Size = New System.Drawing.Size(438, 210)
         Me.Tile_BaoCaoSachTraTre.TabIndex = 60
         Me.Tile_BaoCaoSachTraTre.Text = "Báo Cáo Thống Kê Sách Trả Trễ"
         Me.Tile_BaoCaoSachTraTre.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_edit_graph_report_80
@@ -429,10 +429,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuyDinh, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuyDinh, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuyDinh.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuyDinh.Location = New System.Drawing.Point(681, 98)
-        Me.Tile_QuyDinh.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_QuyDinh.Location = New System.Drawing.Point(799, 57)
+        Me.Tile_QuyDinh.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuyDinh.Name = "Tile_QuyDinh"
-        Me.Tile_QuyDinh.Size = New System.Drawing.Size(192, 306)
+        Me.Tile_QuyDinh.Size = New System.Drawing.Size(216, 382)
         Me.Tile_QuyDinh.TabIndex = 42
         Me.Tile_QuyDinh.Text = "Quy Định"
         Me.Tile_QuyDinh.TileImage = CType(resources.GetObject("Tile_QuyDinh.TileImage"), System.Drawing.Image)
@@ -453,10 +453,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_TraCuuSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_TraCuuSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_TraCuuSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_TraCuuSach.Location = New System.Drawing.Point(45, 653)
-        Me.Tile_TraCuuSach.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_TraCuuSach.Location = New System.Drawing.Point(51, 816)
+        Me.Tile_TraCuuSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_TraCuuSach.Name = "Tile_TraCuuSach"
-        Me.Tile_TraCuuSach.Size = New System.Drawing.Size(558, 176)
+        Me.Tile_TraCuuSach.Size = New System.Drawing.Size(628, 220)
         Me.Tile_TraCuuSach.TabIndex = 58
         Me.Tile_TraCuuSach.Text = "Tra Cứu Sách"
         Me.Tile_TraCuuSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_google_web_search_80
@@ -477,10 +477,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_NhanTraSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_NhanTraSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_NhanTraSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_NhanTraSach.Location = New System.Drawing.Point(328, 465)
-        Me.Tile_NhanTraSach.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_NhanTraSach.Location = New System.Drawing.Point(369, 581)
+        Me.Tile_NhanTraSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_NhanTraSach.Name = "Tile_NhanTraSach"
-        Me.Tile_NhanTraSach.Size = New System.Drawing.Size(276, 176)
+        Me.Tile_NhanTraSach.Size = New System.Drawing.Size(310, 220)
         Me.Tile_NhanTraSach.TabIndex = 55
         Me.Tile_NhanTraSach.Text = "Lập Phiếu Trả Sách"
         Me.Tile_NhanTraSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_report_card_80
@@ -501,10 +501,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_LapPhieuMuonSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_LapPhieuMuonSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_LapPhieuMuonSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_LapPhieuMuonSach.Location = New System.Drawing.Point(45, 465)
-        Me.Tile_LapPhieuMuonSach.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_LapPhieuMuonSach.Location = New System.Drawing.Point(51, 581)
+        Me.Tile_LapPhieuMuonSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_LapPhieuMuonSach.Name = "Tile_LapPhieuMuonSach"
-        Me.Tile_LapPhieuMuonSach.Size = New System.Drawing.Size(276, 176)
+        Me.Tile_LapPhieuMuonSach.Size = New System.Drawing.Size(310, 220)
         Me.Tile_LapPhieuMuonSach.TabIndex = 54
         Me.Tile_LapPhieuMuonSach.Text = "Lập Phiếu Mượn Sách"
         Me.Tile_LapPhieuMuonSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_compose_80
@@ -524,10 +524,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuanLiTheLoaiSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuanLiTheLoaiSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuanLiTheLoaiSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuanLiTheLoaiSach.Location = New System.Drawing.Point(858, 254)
-        Me.Tile_QuanLiTheLoaiSach.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_QuanLiTheLoaiSach.Location = New System.Drawing.Point(965, 318)
+        Me.Tile_QuanLiTheLoaiSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuanLiTheLoaiSach.Name = "Tile_QuanLiTheLoaiSach"
-        Me.Tile_QuanLiTheLoaiSach.Size = New System.Drawing.Size(292, 176)
+        Me.Tile_QuanLiTheLoaiSach.Size = New System.Drawing.Size(328, 220)
         Me.Tile_QuanLiTheLoaiSach.TabIndex = 51
         Me.Tile_QuanLiTheLoaiSach.Text = "Quản Lí Thể Loại Sách"
         Me.Tile_QuanLiTheLoaiSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_kindle_80
@@ -547,10 +547,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_ThemTheLoaiSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_ThemTheLoaiSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_ThemTheLoaiSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_ThemTheLoaiSach.Location = New System.Drawing.Point(858, 70)
-        Me.Tile_ThemTheLoaiSach.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_ThemTheLoaiSach.Location = New System.Drawing.Point(965, 88)
+        Me.Tile_ThemTheLoaiSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_ThemTheLoaiSach.Name = "Tile_ThemTheLoaiSach"
-        Me.Tile_ThemTheLoaiSach.Size = New System.Drawing.Size(292, 176)
+        Me.Tile_ThemTheLoaiSach.Size = New System.Drawing.Size(328, 220)
         Me.Tile_ThemTheLoaiSach.TabIndex = 50
         Me.Tile_ThemTheLoaiSach.Text = "Thêm Thể Loại Sách"
         Me.Tile_ThemTheLoaiSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_abc_80
@@ -571,10 +571,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuanLiTacGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuanLiTacGia, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuanLiTacGia.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuanLiTacGia.Location = New System.Drawing.Point(602, 254)
-        Me.Tile_QuanLiTacGia.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_QuanLiTacGia.Location = New System.Drawing.Point(677, 318)
+        Me.Tile_QuanLiTacGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuanLiTacGia.Name = "Tile_QuanLiTacGia"
-        Me.Tile_QuanLiTacGia.Size = New System.Drawing.Size(233, 176)
+        Me.Tile_QuanLiTacGia.Size = New System.Drawing.Size(262, 220)
         Me.Tile_QuanLiTacGia.TabIndex = 49
         Me.Tile_QuanLiTacGia.Text = "Quản Lí Tác Giả"
         Me.Tile_QuanLiTacGia.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_applicant_80__1_
@@ -594,10 +594,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_ThemTacGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_ThemTacGia, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_ThemTacGia.ForeColor = System.Drawing.Color.White
-        Me.Tile_ThemTacGia.Location = New System.Drawing.Point(602, 70)
-        Me.Tile_ThemTacGia.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_ThemTacGia.Location = New System.Drawing.Point(677, 88)
+        Me.Tile_ThemTacGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_ThemTacGia.Name = "Tile_ThemTacGia"
-        Me.Tile_ThemTacGia.Size = New System.Drawing.Size(233, 176)
+        Me.Tile_ThemTacGia.Size = New System.Drawing.Size(262, 220)
         Me.Tile_ThemTacGia.TabIndex = 48
         Me.Tile_ThemTacGia.Text = "Thêm Tác Giả"
         Me.Tile_ThemTacGia.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_quill_with_ink_80
@@ -617,10 +617,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuanLiSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuanLiSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuanLiSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuanLiSach.Location = New System.Drawing.Point(660, 653)
-        Me.Tile_QuanLiSach.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_QuanLiSach.Location = New System.Drawing.Point(742, 816)
+        Me.Tile_QuanLiSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuanLiSach.Name = "Tile_QuanLiSach"
-        Me.Tile_QuanLiSach.Size = New System.Drawing.Size(490, 176)
+        Me.Tile_QuanLiSach.Size = New System.Drawing.Size(551, 220)
         Me.Tile_QuanLiSach.TabIndex = 47
         Me.Tile_QuanLiSach.Text = "Quản Lí Sách"
         Me.Tile_QuanLiSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_book_shelf_80
@@ -640,10 +640,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_ThemSach, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_ThemSach, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_ThemSach.ForeColor = System.Drawing.Color.White
-        Me.Tile_ThemSach.Location = New System.Drawing.Point(660, 465)
-        Me.Tile_ThemSach.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_ThemSach.Location = New System.Drawing.Point(742, 581)
+        Me.Tile_ThemSach.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_ThemSach.Name = "Tile_ThemSach"
-        Me.Tile_ThemSach.Size = New System.Drawing.Size(490, 176)
+        Me.Tile_ThemSach.Size = New System.Drawing.Size(551, 220)
         Me.Tile_ThemSach.TabIndex = 46
         Me.Tile_ThemSach.Text = "Thêm Sách"
         Me.Tile_ThemSach.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_contacts_80
@@ -663,10 +663,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuanLiLoaiDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuanLiLoaiDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuanLiLoaiDocGia.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuanLiLoaiDocGia.Location = New System.Drawing.Point(262, 254)
-        Me.Tile_QuanLiLoaiDocGia.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_QuanLiLoaiDocGia.Location = New System.Drawing.Point(295, 318)
+        Me.Tile_QuanLiLoaiDocGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuanLiLoaiDocGia.Name = "Tile_QuanLiLoaiDocGia"
-        Me.Tile_QuanLiLoaiDocGia.Size = New System.Drawing.Size(269, 176)
+        Me.Tile_QuanLiLoaiDocGia.Size = New System.Drawing.Size(303, 220)
         Me.Tile_QuanLiLoaiDocGia.TabIndex = 45
         Me.Tile_QuanLiLoaiDocGia.Text = "Quản Lí Loại Độc Giả"
         Me.Tile_QuanLiLoaiDocGia.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_resume_80__1_
@@ -686,10 +686,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_ThemLoaiDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_ThemLoaiDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_ThemLoaiDocGia.ForeColor = System.Drawing.Color.White
-        Me.Tile_ThemLoaiDocGia.Location = New System.Drawing.Point(262, 70)
-        Me.Tile_ThemLoaiDocGia.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_ThemLoaiDocGia.Location = New System.Drawing.Point(295, 88)
+        Me.Tile_ThemLoaiDocGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_ThemLoaiDocGia.Name = "Tile_ThemLoaiDocGia"
-        Me.Tile_ThemLoaiDocGia.Size = New System.Drawing.Size(269, 176)
+        Me.Tile_ThemLoaiDocGia.Size = New System.Drawing.Size(303, 220)
         Me.Tile_ThemLoaiDocGia.TabIndex = 44
         Me.Tile_ThemLoaiDocGia.Text = "Thêm Loại Độc Giả"
         Me.Tile_ThemLoaiDocGia.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_customer_80__1_
@@ -709,10 +709,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuanLiDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuanLiDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuanLiDocGia.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuanLiDocGia.Location = New System.Drawing.Point(45, 254)
-        Me.Tile_QuanLiDocGia.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_QuanLiDocGia.Location = New System.Drawing.Point(51, 318)
+        Me.Tile_QuanLiDocGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuanLiDocGia.Name = "Tile_QuanLiDocGia"
-        Me.Tile_QuanLiDocGia.Size = New System.Drawing.Size(210, 176)
+        Me.Tile_QuanLiDocGia.Size = New System.Drawing.Size(236, 220)
         Me.Tile_QuanLiDocGia.TabIndex = 43
         Me.Tile_QuanLiDocGia.Text = "Quản Lí Độc Giả"
         Me.Tile_QuanLiDocGia.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_cv_80
@@ -732,10 +732,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_ThemDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_ThemDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_ThemDocGia.ForeColor = System.Drawing.Color.White
-        Me.Tile_ThemDocGia.Location = New System.Drawing.Point(45, 70)
-        Me.Tile_ThemDocGia.Margin = New System.Windows.Forms.Padding(4)
+        Me.Tile_ThemDocGia.Location = New System.Drawing.Point(51, 88)
+        Me.Tile_ThemDocGia.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_ThemDocGia.Name = "Tile_ThemDocGia"
-        Me.Tile_ThemDocGia.Size = New System.Drawing.Size(210, 176)
+        Me.Tile_ThemDocGia.Size = New System.Drawing.Size(236, 220)
         Me.Tile_ThemDocGia.TabIndex = 39
         Me.Tile_ThemDocGia.Text = "Thêm Độc Giả"
         Me.Tile_ThemDocGia.TileImage = Global.QLTV_GUI.My.Resources.Resources._1
@@ -755,10 +755,10 @@ Partial Class Frm_Main
         Me.PanelAnimator.SetDecoration(Me.Btn_Close, BunifuAnimatorNS.DecorationType.None)
         Me.Btn_Close.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
         Me.Btn_Close.ImageActive = Nothing
-        Me.Btn_Close.Location = New System.Drawing.Point(1163, 2)
+        Me.Btn_Close.Location = New System.Drawing.Point(1308, 2)
         Me.Btn_Close.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_Close.Name = "Btn_Close"
-        Me.Btn_Close.Size = New System.Drawing.Size(49, 38)
+        Me.Btn_Close.Size = New System.Drawing.Size(55, 48)
         Me.Btn_Close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Btn_Close.TabIndex = 38
         Me.Btn_Close.TabStop = False
@@ -774,7 +774,7 @@ Partial Class Frm_Main
         Me.Label3.ForeColor = System.Drawing.Color.SeaGreen
         Me.Label3.Location = New System.Drawing.Point(3, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(358, 60)
+        Me.Label3.Size = New System.Drawing.Size(420, 70)
         Me.Label3.TabIndex = 31
         Me.Label3.Text = "Quản Lí Thư Viện"
         '
@@ -786,10 +786,10 @@ Partial Class Frm_Main
         Me.PanelAnimator.SetDecoration(Me.BunifuSeparator1, BunifuAnimatorNS.DecorationType.None)
         Me.BunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(87, Byte), Integer))
         Me.BunifuSeparator1.LineThickness = 2
-        Me.BunifuSeparator1.Location = New System.Drawing.Point(18, 46)
-        Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BunifuSeparator1.Location = New System.Drawing.Point(20, 58)
+        Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(1168, 28)
+        Me.BunifuSeparator1.Size = New System.Drawing.Size(1314, 35)
         Me.BunifuSeparator1.TabIndex = 32
         Me.BunifuSeparator1.Transparency = 255
         Me.BunifuSeparator1.Vertical = False
@@ -825,12 +825,12 @@ Partial Class Frm_Main
         '
         'Frm_Main
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1476, 875)
+        Me.ClientSize = New System.Drawing.Size(1660, 1094)
         Me.Controls.Add(Me.Pn_Main)
         Me.Controls.Add(Me.Pn_Menu)
         Me.PanelAnimator.SetDecoration(Me, BunifuAnimatorNS.DecorationType.None)
