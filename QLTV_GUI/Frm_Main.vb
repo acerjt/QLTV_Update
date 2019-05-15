@@ -19,7 +19,7 @@ Public Class Frm_Main
         If Pn_Menu.Width = 45 Then
             Btn_Menu.Location = New Point(125, 12)
             Pn_Menu.Visible = False
-            Me.Size = New Size(1190, 700)
+            Me.Size = New Size(1190, 710)
             Pn_Menu.Width = 170
 
             PanelAnimator1.ShowSync(Pn_Menu)
@@ -166,7 +166,7 @@ Public Class Frm_Main
 
     Private Sub Tile_BaoCaoSachTraTre_Click(sender As Object, e As EventArgs) Handles Tile_BaoCaoSachTraTre.Click
         Hide()
-        Dim frmBaoCaoThongKeSachTraTre = New Frm_LapBaoCaoThongKeSachTraTre()
+        Dim frmBaoCaoThongKeSachTraTre = New Frm_BaoCao()
         frmBaoCaoThongKeSachTraTre.ShowDialog()
         Show()
     End Sub
@@ -216,6 +216,11 @@ Public Class Frm_Main
         frm_XemThongTin.NhanVienID() = NhanVienID()
         frm_XemThongTin.ShowDialog()
         Show()
+
+        'Hide()
+        'Dim frm_BaoCao = New Frm_BaoCao()
+        'frm_BaoCao.ShowDialog()
+        'Show()
     End Sub
 
     Private Sub Tile_TaoTK_Click(sender As Object, e As EventArgs) Handles Tile_TaoTK.Click
