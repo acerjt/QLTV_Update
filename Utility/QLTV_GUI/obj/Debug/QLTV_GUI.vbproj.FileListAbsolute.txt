@@ -1,0 +1,441 @@
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\Bunifu_UI_v1.52.dll
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojResolveAssemblyReference.cache
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.cache
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+c:\users\administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\Utility.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\Utility.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\Utility.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\MetroFramework.Design.dll
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CopyComplete
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+C:\Users\Administrator\source\repos\QLTV\QLTV_GUI\bin\Debug\MaterialSkin.dll
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\MaterialSkin.dll
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\MetroFramework.Design.dll
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\Utility.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\Utility.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_About.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuMuonSach.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Login.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_TraCuuSach.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Information.resources
+C:\Users\Administrator\Desktop\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuTraSach.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\Utility.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\Utility.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\Utility.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_About.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Information.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuMuonSach.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Login.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuTraSach.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_TraCuuSach.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CopyComplete
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\New folder (9)\Source\QLTV\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.exe
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.pdb
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.xml
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_About.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Information.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuMuonSach.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Login.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuTraSach.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_TraCuuSach.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CopyComplete
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\New folder (10)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_About.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Information.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuMuonSach.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Login.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuTraSach.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_TraCuuSach.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.Cache
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\New folder (11)\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojAssemblyReference.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\Utility.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_About.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Information.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuMuonSach.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Login.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuTraSach.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_TraCuuSach.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CoreCompileInputs.cache
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CopyComplete
+E:\Learning\UIT\HK4\Nhập Môn Công Nghệ Phần Mềm\QLTV\QLTV\WIP\Source\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Register.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\Utility.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\Utility.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\Utility.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojAssemblyReference.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_About.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Information.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuMuonSach.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Login.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuTraSach.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Register.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_TraCuuSach.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CoreCompileInputs.cache
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CopyComplete
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Form1.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_XemThongTin.resources
+C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_DoiMatKhau.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\Utility.exe
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\Utility.pdb
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\Utility.xml
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_About.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Information.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuMuonSach.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Login.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuTraSach.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Register.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_TraCuuSach.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_XemThongTin.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_DoiMatKhau.resources
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CopyComplete
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.exe.config
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_GUI.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\Utility.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_BUS.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DTO.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\Utility.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\Utility.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\QLTV_DAL.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbprojAssemblyReference.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Register.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_About.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Close.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Information.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuMuonSach.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Login.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_Main.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_LapPhieuTraSach.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLDocGia.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLLoaiDocGia.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLSach.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTacGia.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QLTheLoaiSach.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_QuyDinh.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemDocGia.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemLoaiDocGia.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemSach.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTacGia.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_ThemTheLoaiSach.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_TraCuuSach.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_XemThongTin.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Resources.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_DoiMatKhau.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.GenerateResource.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CoreCompileInputs.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.vbproj.CopyComplete
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\FlashControlV71.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\stdole.dll
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_BaoCao.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_BaoCaoSachTheoNhaXuatBan.resources
