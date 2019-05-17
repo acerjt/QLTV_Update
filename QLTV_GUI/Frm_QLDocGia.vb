@@ -40,17 +40,48 @@ Public Class Frm_QLDocGia
                     Txt_HoVaTen.Focus()
                     Return
                 End If
-                '3. Insert to DB
+
+                'get thamso từ database
+                Dim quydinh As QuyDinh_DTO
+                quydinh = New QuyDinh_DTO()
+
+                'qd = New QuyDinh_BUS()
+
+                ' lấy tham số từ database
                 Dim result As Result
+                result = qdBus.GetQuyDinh(quydinh)
+                If (result.FlagResult = False) Then
+                    Frm_Information.m.Text = "Lấy Quy Định không thành công."
+                    Frm_Information.ShowDialog()
+                    System.Console.WriteLine(result.SystemMessage)
+                    Me.Close()
+                    Return
+                End If
+
+                If (dgBus.isValidAge(docgia, quydinh) = False) Then
+                    Frm_Information.m.Text = "Tuổi Độc Giả không hợp lệ."
+                    Frm_Information.ShowDialog()
+                    Dtp_NgaySinh.Focus()
+                    Return
+                End If
+                '3. Insert to DB
+                ' Dim result As Result
                 result = dgBus.update(docgia)
                 If (result.FlagResult = True) Then
                     ' Re-Load HocSinh list
                     loadListDocGia(Cb_LoaiDocGia.SelectedValue)
+                    For Each x As DataGridViewRow In Dgv_ListDocGia.Rows
+                        Dim currentday = DateTime.Now
+                        If (currentday > Dgv_ListDocGia.Rows(x.Index).Cells(6).Value) Then
+                            x.DefaultCellStyle.BackColor = Color.Pink
+                        End If
+                    Next
                     ' Hightlight the row has been updated on table
                     Dgv_ListDocGia.Rows(currentRowIndex).Selected = True
 
                     Frm_Information.m.Text = "Cập nhật Độc Giả thành công."
                     Frm_Information.ShowDialog()
+
                 Else
                     Frm_Information.m.Text = "Cập nhật Độc Giả không thành công."
                     Frm_Information.ShowDialog()
@@ -66,7 +97,7 @@ Public Class Frm_QLDocGia
     Private Sub Btn_Xoa_Click(sender As Object, e As EventArgs) Handles Btn_Xoa.Click
         ' Get the current cell location.
         Dim currentRowIndex As Integer = Dgv_ListDocGia.CurrentCellAddress.Y 'current row selected
-
+        ' Txt_MaDocGia.Text = "1"
         'Verify that indexing OK
         If (-1 < currentRowIndex And currentRowIndex < Dgv_ListDocGia.RowCount) Then
 
@@ -127,17 +158,17 @@ Public Class Frm_QLDocGia
             Return
         End If
 
-
         Cb_LoaiDocGia.DataSource = New BindingSource(listLoaiDocGia, String.Empty)
         Cb_LoaiDocGia.DisplayMember = "TenLoaiDocGia"
         Cb_LoaiDocGia.ValueMember = "MaLoaiDocGia"
         Dim MaLoaiDocGia = Convert.ToInt32(Cb_LoaiDocGia.SelectedValue)
-        loadListDocGia(MaLoaiDocGia)
+        'loadListDocGia(MaLoaiDocGia)
         Cb_LoaiDocGiaCapNhap.DataSource = New BindingSource(listLoaiDocGia, String.Empty)
         Cb_LoaiDocGiaCapNhap.DisplayMember = "TenLoaiDocGia"
         Cb_LoaiDocGiaCapNhap.ValueMember = "MaLoaiDocGia"
 
-
+        Dtp_NgayLap.Value = Date.Now
+        Dtp_NgaySinh.Value = Date.Now
         Txt_NgayHetHan.Text = ""
         Txt_TinhTrangThe.Text = ""
     End Sub
@@ -150,6 +181,7 @@ Public Class Frm_QLDocGia
             Frm_Information.m.Text = "Lấy danh sách độc giả theo loại không thành công."
             Frm_Information.ShowDialog()
             System.Console.WriteLine(result.SystemMessage)
+            Me.Close()
             Return
         End If
 
@@ -165,7 +197,6 @@ Public Class Frm_QLDocGia
         clMaDocGia.Name = "MaDocGia"
         clMaDocGia.HeaderText = "Mã Độc Giả"
         clMaDocGia.DataPropertyName = "MaDocGia"
-        'clMaDocGia.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader
         Dgv_ListDocGia.Columns.Add(clMaDocGia)
 
         Dim clLoaiDocGia = New DataGridView()
@@ -231,6 +262,15 @@ Public Class Frm_QLDocGia
                     x.DefaultCellStyle.BackColor = Color.Pink
                 End If
             Next
+            Txt_MaDocGia.Text = ""
+            Txt_HoVaTen.Text = ""
+            Txt_DiaChi.Text = ""
+            Txt_Email.Text = ""
+            Txt_TinhTrangThe.Text = ""
+            Txt_TinhTrangThe.BackColor = Color.White
+            Dtp_NgayLap.Value = Date.Now
+            Dtp_NgaySinh.Value = Date.Now
+            Txt_NgayHetHan.Text = ""
         Catch ex As Exception
 
         End Try
@@ -302,7 +342,7 @@ Public Class Frm_QLDocGia
             Txt_TinhTrangThe.Text = "Hết Hạn"
             Txt_TinhTrangThe.BackColor = Color.Red
         Else
-            Txt_TinhTrangThe.Text = "Còn Hạn"
+            'Txt_TinhTrangThe.Text = "Còn Hạn"
             Txt_TinhTrangThe.BackColor = Color.WhiteSmoke
 
         End If

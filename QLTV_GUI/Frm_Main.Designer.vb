@@ -23,9 +23,9 @@ Partial Class Frm_Main
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation2 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
-        Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation3 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_Main))
+        Dim Animation4 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Me.Pn_Menu = New System.Windows.Forms.Panel()
         Me.Btn_XemThongTin = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.btn_GioiThieu = New Bunifu.Framework.UI.BunifuFlatButton()
@@ -293,22 +293,22 @@ Partial Class Frm_Main
         '
         Me.PanelAnimator.AnimationType = BunifuAnimatorNS.AnimationType.Mosaic
         Me.PanelAnimator.Cursor = Nothing
-        Animation2.AnimateOnlyDifferences = True
-        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
-        Animation2.LeafCoeff = 0!
-        Animation2.MaxTime = 1.0!
-        Animation2.MinTime = 0!
-        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
-        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
-        Animation2.MosaicSize = 20
-        Animation2.Padding = New System.Windows.Forms.Padding(30)
-        Animation2.RotateCoeff = 0!
-        Animation2.RotateLimit = 0!
-        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
-        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
-        Animation2.TimeCoeff = 0!
-        Animation2.TransparencyCoeff = 0!
-        Me.PanelAnimator.DefaultAnimation = Animation2
+        Animation3.AnimateOnlyDifferences = True
+        Animation3.BlindCoeff = CType(resources.GetObject("Animation3.BlindCoeff"), System.Drawing.PointF)
+        Animation3.LeafCoeff = 0!
+        Animation3.MaxTime = 1.0!
+        Animation3.MinTime = 0!
+        Animation3.MosaicCoeff = CType(resources.GetObject("Animation3.MosaicCoeff"), System.Drawing.PointF)
+        Animation3.MosaicShift = CType(resources.GetObject("Animation3.MosaicShift"), System.Drawing.PointF)
+        Animation3.MosaicSize = 20
+        Animation3.Padding = New System.Windows.Forms.Padding(30)
+        Animation3.RotateCoeff = 0!
+        Animation3.RotateLimit = 0!
+        Animation3.ScaleCoeff = CType(resources.GetObject("Animation3.ScaleCoeff"), System.Drawing.PointF)
+        Animation3.SlideCoeff = CType(resources.GetObject("Animation3.SlideCoeff"), System.Drawing.PointF)
+        Animation3.TimeCoeff = 0!
+        Animation3.TransparencyCoeff = 0!
+        Me.PanelAnimator.DefaultAnimation = Animation3
         '
         'Pn_Main
         '
@@ -386,9 +386,9 @@ Partial Class Frm_Main
         Me.Tile_BaoCaoTheoTheLoai.Location = New System.Drawing.Point(306, 57)
         Me.Tile_BaoCaoTheoTheLoai.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_BaoCaoTheoTheLoai.Name = "Tile_BaoCaoTheoTheLoai"
-        Me.Tile_BaoCaoTheoTheLoai.Size = New System.Drawing.Size(438, 158)
+        Me.Tile_BaoCaoTheoTheLoai.Size = New System.Drawing.Size(438, 196)
         Me.Tile_BaoCaoTheoTheLoai.TabIndex = 59
-        Me.Tile_BaoCaoTheoTheLoai.Text = "Báo Cáo Thống Kê Theo Thể Loại"
+        Me.Tile_BaoCaoTheoTheLoai.Text = "Báo Cáo Thống Kê Sách theo NXB"
         Me.Tile_BaoCaoTheoTheLoai.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_pie_chart_80
         Me.Tile_BaoCaoTheoTheLoai.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.Tile_BaoCaoTheoTheLoai.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
@@ -406,10 +406,10 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_BaoCaoSachTraTre.ForeColor = System.Drawing.Color.White
-        Me.Tile_BaoCaoSachTraTre.Location = New System.Drawing.Point(306, 235)
+        Me.Tile_BaoCaoSachTraTre.Location = New System.Drawing.Point(306, 263)
         Me.Tile_BaoCaoSachTraTre.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_BaoCaoSachTraTre.Name = "Tile_BaoCaoSachTraTre"
-        Me.Tile_BaoCaoSachTraTre.Size = New System.Drawing.Size(438, 210)
+        Me.Tile_BaoCaoSachTraTre.Size = New System.Drawing.Size(438, 182)
         Me.Tile_BaoCaoSachTraTre.TabIndex = 60
         Me.Tile_BaoCaoSachTraTre.Text = "Báo Cáo Thống Kê Sách Trả Trễ"
         Me.Tile_BaoCaoSachTraTre.TileImage = Global.QLTV_GUI.My.Resources.Resources.icons8_edit_graph_report_80
@@ -798,22 +798,22 @@ Partial Class Frm_Main
         '
         Me.PanelAnimator1.AnimationType = BunifuAnimatorNS.AnimationType.Leaf
         Me.PanelAnimator1.Cursor = Nothing
-        Animation1.AnimateOnlyDifferences = True
-        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
-        Animation1.LeafCoeff = 1.0!
-        Animation1.MaxTime = 1.0!
-        Animation1.MinTime = 0!
-        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
-        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
-        Animation1.MosaicSize = 0
-        Animation1.Padding = New System.Windows.Forms.Padding(0)
-        Animation1.RotateCoeff = 0!
-        Animation1.RotateLimit = 0!
-        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
-        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
-        Animation1.TimeCoeff = 0!
-        Animation1.TransparencyCoeff = 0!
-        Me.PanelAnimator1.DefaultAnimation = Animation1
+        Animation4.AnimateOnlyDifferences = True
+        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), System.Drawing.PointF)
+        Animation4.LeafCoeff = 1.0!
+        Animation4.MaxTime = 1.0!
+        Animation4.MinTime = 0!
+        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), System.Drawing.PointF)
+        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), System.Drawing.PointF)
+        Animation4.MosaicSize = 0
+        Animation4.Padding = New System.Windows.Forms.Padding(0)
+        Animation4.RotateCoeff = 0!
+        Animation4.RotateLimit = 0!
+        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), System.Drawing.PointF)
+        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), System.Drawing.PointF)
+        Animation4.TimeCoeff = 0!
+        Animation4.TransparencyCoeff = 0!
+        Me.PanelAnimator1.DefaultAnimation = Animation4
         Me.PanelAnimator1.Interval = 50
         Me.PanelAnimator1.MaxAnimationTime = 5000
         Me.PanelAnimator1.TimeStep = 0.07!

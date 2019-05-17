@@ -16,6 +16,16 @@ Public Class Frm_ThemDocGia
         ' Load LoaiDocGia list
         Dim listLoaiDocGia = New List(Of LoaiDocGia_DTO)
         Dim result As Result
+        Dim nextMaDocGia = "1"
+        result = dgBus.buildMaDocGia(nextMaDocGia)
+        If (result.FlagResult = False) Then
+            Frm_Information.m.Text = "Lấy tự động Mã Độc Giả không thành công."
+            Frm_Information.ShowDialog()
+            System.Console.WriteLine(result.SystemMessage)
+            Me.Close()
+            Return
+        End If
+        Txt_MaDocGia.Text = nextMaDocGia
         result = ldgBus.selectAll(listLoaiDocGia)
         If (result.FlagResult = False) Then
             Frm_Information.m.Text = "Lấy danh sách loại độc giả không thành công."
@@ -33,16 +43,6 @@ Public Class Frm_ThemDocGia
         Cb_LoaiDocGia.ValueMember = "MaLoaiDocGia"
 
         'set MaDocgIA auto
-        Dim nextMaDocGia = "1"
-        result = dgBus.buildMaDocGia(nextMaDocGia)
-        If (result.FlagResult = False) Then
-            Frm_Information.m.Text = "Lấy tự động Mã Độc Giả không thành công."
-            Frm_Information.ShowDialog()
-            System.Console.WriteLine(result.SystemMessage)
-            Me.Close()
-            Return
-        End If
-        Txt_MaDocGia.Text = nextMaDocGia
 
 
     End Sub
@@ -175,6 +175,8 @@ Public Class Frm_ThemDocGia
             Txt_MaDocGia.Text = nextMaDocGia
             Txt_DiaChi.Text = String.Empty
             Txt_HoVaTen.Text = String.Empty
+            Txt_Email.Text = String.Empty
+
 
         Else
             frm_Infor.m.Text = "Thêm Độc Giả không thành công."

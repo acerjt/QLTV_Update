@@ -158,9 +158,13 @@ Public Class Frm_Main
     End Sub
 
     Private Sub Tile_BaoCaoTheoTheLoai_Click(sender As Object, e As EventArgs) Handles Tile_BaoCaoTheoTheLoai.Click
+        'Hide()
+        'Dim frmBaoCaoThongKeTheoTheLoai = New Frm_LapBaoCaoThongKeMuonSachTheoTheLoai()
+        'frmBaoCaoThongKeTheoTheLoai.ShowDialog()
+        'Show()
         Hide()
-        Dim frmBaoCaoThongKeTheoTheLoai = New Frm_LapBaoCaoThongKeMuonSachTheoTheLoai()
-        frmBaoCaoThongKeTheoTheLoai.ShowDialog()
+        Dim frmBaoCaoThongKeSachTheoNXB = New Frm_BaoCaoSachTheoNhaXuatBan()
+        frmBaoCaoThongKeSachTheoNXB.ShowDialog()
         Show()
     End Sub
 
@@ -229,5 +233,7 @@ Public Class Frm_Main
         frm_TaoTK.ShowDialog()
     End Sub
 
+    Private Sub Pn_Admin_Paint(sender As Object, e As PaintEventArgs) Handles Pn_Admin.Paint
 
+    End Sub
 End Class

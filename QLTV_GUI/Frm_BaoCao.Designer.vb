@@ -91,7 +91,7 @@ Partial Class Frm_BaoCao
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 26.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label3.Location = New System.Drawing.Point(2, 11)
+        Me.Label3.Location = New System.Drawing.Point(2, 6)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(831, 70)
         Me.Label3.TabIndex = 137
@@ -158,7 +158,7 @@ Partial Class Frm_BaoCao
         Me.button1.IconVisible = False
         Me.button1.IconZoom = 90.0R
         Me.button1.IsTab = False
-        Me.button1.Location = New System.Drawing.Point(978, 99)
+        Me.button1.Location = New System.Drawing.Point(974, 104)
         Me.button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.button1.Name = "button1"
         Me.button1.Normalcolor = System.Drawing.Color.SeaGreen
@@ -166,7 +166,7 @@ Partial Class Frm_BaoCao
         Me.button1.OnHoverTextColor = System.Drawing.Color.White
         Me.button1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.button1.selected = False
-        Me.button1.Size = New System.Drawing.Size(306, 57)
+        Me.button1.Size = New System.Drawing.Size(310, 52)
         Me.button1.TabIndex = 135
         Me.button1.Text = "Lập Báo Cáo"
         Me.button1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter

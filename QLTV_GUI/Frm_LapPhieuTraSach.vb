@@ -52,6 +52,7 @@ Public Class Frm_LapPhieuTraSach
             Frm_Information.m.Text = "Lấy thông tin thủ thư không thành công."
             Frm_Information.ShowDialog()
             System.Console.WriteLine(result.SystemMessage)
+            Me.Close()
             Return
         Else
             Txt_TenThuThu.Text = NhanVien.HoVaTen
@@ -60,9 +61,7 @@ Public Class Frm_LapPhieuTraSach
 
     Private Sub Txt_MaDocGia_TextChanged(sender As Object, e As EventArgs) Handles Txt_MaDocGia.TextChanged
         Dim MaDocGia As String
-        'listChiTietPhieuMuonSach.Clear()
-        'Dgv_ListPhieuMuonSach.DataSource = Nothing
-        'Dgv_ListPhieuMuonSach.Refresh()
+
         Txt_HoVaTen.Text = String.Empty
         Dgv_ListSachTra.Rows.Clear()
         If Txt_MaDocGia.Text <> "" Then
@@ -90,6 +89,7 @@ Public Class Frm_LapPhieuTraSach
             frm_Infor.m.Text = "Lấy danh sách Độc Giả không thành công."
             frm_Infor.ShowDialog()
             System.Console.WriteLine(result.SystemMessage)
+            Me.Close()
             Return
         End If
 
@@ -186,6 +186,12 @@ Public Class Frm_LapPhieuTraSach
     Private Sub Dgv_ListSachTra_CellValueChanged(sender As Object, e As DataGridViewCellEventArgs) Handles Dgv_ListSachTra.CellValueChanged
 
         If (e.RowIndex <> -1 And e.ColumnIndex = 0) Then
+            If Txt_MaDocGia.Text = "" Then
+                frm_Infor.m.Text = "Vui lòng nhập mã độc giả."
+                frm_Infor.ShowDialog()
+                Dgv_ListSachTra.Rows.RemoveAt(e.RowIndex)
+                Return
+            End If
 
             If Dgv_ListSachDangMuon.Rows.Count = 0 Then
                 frm_Infor.m.Text = "Độc giả này hiện không mượn sách."
@@ -193,12 +199,7 @@ Public Class Frm_LapPhieuTraSach
                 Dgv_ListSachTra.Rows.RemoveAt(e.RowIndex)
                 Return
             End If
-            If Txt_MaDocGia.Text = "" Then
-                frm_Infor.m.Text = "Vui lòng nhập mã độc giả."
-                frm_Infor.ShowDialog()
-                Dgv_ListSachTra.Rows.RemoveAt(e.RowIndex)
-                Return
-            End If
+
 
             For Each z As DataGridViewRow In Dgv_ListSachDangMuon.Rows
                 If (Dgv_ListSachDangMuon.Item(0, z.Index).Value <> Dgv_ListSachTra.Rows(e.RowIndex).Cells(0).Value And (z.Index + 1) = Dgv_ListSachDangMuon.Rows.Count) Then

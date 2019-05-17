@@ -11,6 +11,7 @@ Public Class Frm_LapPhieuMuonSach
     Private listChiTietPhieuMuonSach As List(Of Sach_DTO)
     Private listChiTietPhieuMuonSach1 As List(Of ChiTietPhieuMuonSach_DTO)
     Private NhanVienBUS As NhanVien_BUS
+    Private QuyDinhDTO As QuyDinh_DTO
     Property NhanVienID() As Integer
         Get
             Return iNhanVienID
@@ -30,6 +31,8 @@ Public Class Frm_LapPhieuMuonSach
         listChiTietPhieuMuonSach1 = New List(Of ChiTietPhieuMuonSach_DTO)
         Dim listSach = New List(Of Sach_DTO)
         Dim NhanVien = New NhanVien_DTO()
+        QuyDinhDTO = New QuyDinh_DTO()
+        QuyDinhBUS.GetQuyDinh(QuyDinhDTO)
         Dtp_NgayMuon.Value = DateTime.Now
         Dim result As Result
         'set MSSH auto
@@ -48,6 +51,7 @@ Public Class Frm_LapPhieuMuonSach
             Frm_Information.m.Text = "Lấy thông tin thủ thư không thành công."
             Frm_Information.ShowDialog()
             System.Console.WriteLine(result.SystemMessage)
+            Me.Close()
             Return
         Else
             Txt_TenThuThu.Text = NhanVien.HoVaTen
@@ -66,21 +70,25 @@ Public Class Frm_LapPhieuMuonSach
             Return
         End If
         'DocGia.isValidHethan(Dg)
-        If (DocGiaBus.isValidHethan(Dg) = False) Then
-            Txt_TinhTrangThe.Text = "Hết Hạn"
-            Txt_TinhTrangThe.BackColor = Color.Pink
 
-        Else
-            Txt_TinhTrangThe.Text = "Còn Hạn"
-            Txt_TinhTrangThe.BackColor = Color.LightBlue
-
-        End If
         If Dg.HoVaTen = "" Then
             Frm_Information.m.Text = "Không tồn tại mã độc giả."
             Frm_Information.ShowDialog()
             Txt_TinhTrangThe.Text = ""
+        Else
+            Txt_HoVaTen.Text = Dg.HoVaTen
+            If (DocGiaBus.isValidHethan(Dg) = False) Then
+                Txt_TinhTrangThe.Text = "Hết Hạn"
+                Txt_TinhTrangThe.BackColor = Color.Pink
+
+            Else
+                Txt_TinhTrangThe.Text = "Còn Hạn"
+                Txt_TinhTrangThe.BackColor = Color.LightBlue
+
+            End If
         End If
-        Txt_HoVaTen.Text = Dg.HoVaTen
+
+
         result = ChiTietPhieuMuonSachBUS.selectSachDaMuon(MaDocGia, listChiTietPhieuMuonSach)
         If (result.FlagResult = True) Then
 
@@ -198,6 +206,13 @@ Public Class Frm_LapPhieuMuonSach
     Private Sub Dgv_ListPhieuMuonSach_CellValueChanged(sender As Object, e As DataGridViewCellEventArgs) Handles Dgv_ListPhieuMuonSach.CellValueChanged
         If (e.RowIndex <> -1 And e.ColumnIndex = 0) Then
 
+            If Dgv_ListPhieuMuonSach.Rows.Count + Dgv_ListPhieuMuonSach1.Rows.Count > QuyDinhDTO.SoLuongSachMuonToiDa + 1 Then
+                Frm_Information.m.Text = "Chỉ được mượn số lượng Sách theo Quy Định"
+                Frm_Information.ShowDialog()
+                Dgv_ListPhieuMuonSach.Rows.RemoveAt(e.RowIndex)
+                Return
+            End If
+
             For Each z As DataGridViewRow In Dgv_ListPhieuMuonSach1.Rows
                 If (Dgv_ListPhieuMuonSach1.Item(0, z.Index).Value = Dgv_ListPhieuMuonSach.Rows(e.RowIndex).Cells(0).Value) Then
                     Frm_Information.m.Text = "Sách chưa được trả."
@@ -227,16 +242,11 @@ Public Class Frm_LapPhieuMuonSach
             Dim Chitietphieumuonsach As Sach_DTO
             Chitietphieumuonsach = New Sach_DTO()
 
-            Dim Quydinh As QuyDinh_DTO
-            Quydinh = New QuyDinh_DTO()
-            QuyDinhBUS.GetQuyDinh(Quydinh)
+            'Dim Quydinh As QuyDinh_DTO
+            'Quydinh = New QuyDinh_DTO()
+            'QuyDinhBUS.GetQuyDinh(Quydinh)
 
-            If Dgv_ListPhieuMuonSach.Rows.Count + Dgv_ListPhieuMuonSach1.Rows.Count > Quydinh.SoLuongSachMuonToiDa + 1 Then
-                Frm_Information.m.Text = "Chỉ được mượn số lượng Sách theo Quy Định"
-                Frm_Information.ShowDialog()
-                Dgv_ListPhieuMuonSach.Rows.RemoveAt(e.RowIndex)
-                Return
-            End If
+
 
 
             Dim x = Dgv_ListPhieuMuonSach.Rows(e.RowIndex).Cells(0).Value
@@ -246,7 +256,7 @@ Public Class Frm_LapPhieuMuonSach
             Dim result As Result
             result = SachBus.selectALL_ByMaSach(x, Chitietphieumuonsach)
             If (result.FlagResult = False) Then
-                Frm_Information.m.Text = "Lấy danh sach các Sách theo Mã không thành công."
+                Frm_Information.m.Text = "Lấy danh sách các Sách theo Mã không thành công."
                 Frm_Information.ShowDialog()
                 System.Console.WriteLine(result.SystemMessage)
 
@@ -271,14 +281,14 @@ Public Class Frm_LapPhieuMuonSach
                 End If
                 'Dgv_ListPhieuMuonSach.Item("Cl_NgayDuKienTra", e.RowIndex).Value = Chitietphieumuonsach.NgayDuKien
                 ' Dgv_ListPhieuMuonSach.Item("Cl_STT", e.RowIndex).Value = e.RowIndex + 1
-                If (listChiTietPhieuMuonSach1.Count() = e.RowIndex) Then
-                    listChiTietPhieuMuonSach1.Add(New ChiTietPhieuMuonSach_DTO(Txt_MaPhieuMuonSach.Text, x))
-                Else
-                    If (listChiTietPhieuMuonSach1.Count() > e.RowIndex) Then
-                        listChiTietPhieuMuonSach1.RemoveAt(e.RowIndex)
-                        listChiTietPhieuMuonSach1.Add(New ChiTietPhieuMuonSach_DTO(Txt_MaPhieuMuonSach.Text, x))
-                    End If
-                End If
+                'If (listChiTietPhieuMuonSach1.Count() = e.RowIndex) Then
+                '    listChiTietPhieuMuonSach1.Add(New ChiTietPhieuMuonSach_DTO(Txt_MaPhieuMuonSach.Text, x))
+                'Else
+                '    If (listChiTietPhieuMuonSach1.Count() > e.RowIndex) Then
+                '        listChiTietPhieuMuonSach1.RemoveAt(e.RowIndex)
+                '        listChiTietPhieuMuonSach1.Add(New ChiTietPhieuMuonSach_DTO(Txt_MaPhieuMuonSach.Text, x))
+                '    End If
+                'End If
             End If
         End If
 
@@ -291,9 +301,9 @@ Public Class Frm_LapPhieuMuonSach
         Dim PhieuMuonSach As PhieuMuonSach_DTO
         PhieuMuonSach = New PhieuMuonSach_DTO()
 
-        Dim Quydinh As QuyDinh_DTO
-        Quydinh = New QuyDinh_DTO()
-        QuyDinhBUS.GetQuyDinh(Quydinh)
+        'Dim Quydinh As QuyDinh_DTO
+        'Quydinh = New QuyDinh_DTO()
+        'QuyDinhBUS.GetQuyDinh(Quydinh)
 
         '1. Mapping data from GUI control
         PhieuMuonSach.MaPhieuMuonSach = Txt_MaPhieuMuonSach.Text
@@ -305,7 +315,7 @@ Public Class Frm_LapPhieuMuonSach
         End If
         PhieuMuonSach.MaDocGia = Txt_MaDocGia.Text
         PhieuMuonSach.NgayMuon = Dtp_NgayMuon.Value
-        PhieuMuonSach.NgayDuKienTra = Dtp_NgayMuon.Value.AddDays(Quydinh.SoNgayMuonToiDa)
+        PhieuMuonSach.NgayDuKienTra = Dtp_NgayMuon.Value.AddDays(QuyDinhDTO.SoNgayMuonToiDa)
         PhieuMuonSach.MaNhanVien = NhanVienID()
         '2. Business .....
         If (PhieuMuonSachBus.isValidMaDocGia(PhieuMuonSach) = False) Then
@@ -341,6 +351,10 @@ Public Class Frm_LapPhieuMuonSach
 
         For Each x As DataGridViewRow In Dgv_ListPhieuMuonSach.Rows
 
+            If (x.Index = Dgv_ListPhieuMuonSach.Rows.Count - 1) Then
+                Exit For
+            End If
+
             If (Dgv_ListPhieuMuonSach.Item(4, x.Index).Value = "Đang Mượn") Then
                 Frm_Information.m.Text = "Sách hiện đang có người mượn."
                 Frm_Information.ShowDialog()
@@ -352,6 +366,8 @@ Public Class Frm_LapPhieuMuonSach
                 Frm_Information.ShowDialog()
                 Return
             End If
+            Dim a = x.Cells(0).Value
+            listChiTietPhieuMuonSach1.Add(New ChiTietPhieuMuonSach_DTO(Txt_MaPhieuMuonSach.Text, a))
         Next
 
         '3. Insert to DB
