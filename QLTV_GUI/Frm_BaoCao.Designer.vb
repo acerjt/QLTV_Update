@@ -66,9 +66,9 @@ Partial Class Frm_BaoCao
         Me.CrystalReportViewer1.ActiveViewIndex = -1
         Me.CrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.CrystalReportViewer1.Location = New System.Drawing.Point(106, 204)
+        Me.CrystalReportViewer1.Location = New System.Drawing.Point(109, 164)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
-        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1164, 765)
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1281, 858)
         Me.CrystalReportViewer1.TabIndex = 6
         Me.CrystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
         '
@@ -77,7 +77,7 @@ Partial Class Frm_BaoCao
         Me.Btn_Close.BackColor = System.Drawing.Color.Transparent
         Me.Btn_Close.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
         Me.Btn_Close.ImageActive = Nothing
-        Me.Btn_Close.Location = New System.Drawing.Point(1273, 11)
+        Me.Btn_Close.Location = New System.Drawing.Point(1371, 11)
         Me.Btn_Close.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_Close.Name = "Btn_Close"
         Me.Btn_Close.Size = New System.Drawing.Size(55, 48)
@@ -105,7 +105,7 @@ Partial Class Frm_BaoCao
         Me.BunifuSeparator1.Location = New System.Drawing.Point(-3, 58)
         Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(1341, 51)
+        Me.BunifuSeparator1.Size = New System.Drawing.Size(1429, 51)
         Me.BunifuSeparator1.TabIndex = 138
         Me.BunifuSeparator1.Transparency = 255
         Me.BunifuSeparator1.Vertical = False
@@ -178,7 +178,7 @@ Partial Class Frm_BaoCao
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(1367, 1001)
+        Me.ClientSize = New System.Drawing.Size(1467, 1041)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label3)
@@ -191,7 +191,7 @@ Partial Class Frm_BaoCao
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_BaoCao"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Frm_BaoCao"
+        Me.Text = "inh"
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

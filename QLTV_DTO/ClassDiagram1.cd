@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QLTV_DTO.BaoCaoMuonSachTheoTheLoai_DTO" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABEAAAAAAAAAAAAAAAgAABABAAAAAQAAAEA=</HashCode>
+      <FileName>BaoCaoMuonSachTheoTheLoai_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.BaoCaoThongKeSachTraTre_DTO" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAEAAAAAAgAAAAAAAAAAAAABAAAAAQAAAEA=</HashCode>
+      <FileName>BaoCaoThongKeSachTraTre_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.ChiTietBaoCaoMuonSachTheoTheLoai_DTO" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAgAAAABAAAgCQAAAEA=</HashCode>
+      <FileName>ChiTietBaoCaoMuonSachTheoTheLoai_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.ChiTietBaoCaoThongKeSachTraTre_DTO" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAgAAAAAAAAAAAABBAAAAAQAAAEA=</HashCode>
+      <FileName>ChiTietBaoCaoThongKeSachTraTre_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.ChiTietPhieuMuonSach_DTO">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEA=</HashCode>
+      <FileName>ChiTietPhieuMuonSach_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.ChiTietPhieuTraSach_DTO" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAIAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>ChiTietPhieuTraSach_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.DocGia_DTO" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAACAAAAAAAABAAAAAAAAISAAAAAAgAAAAAEA=</HashCode>
+      <FileName>DocGia_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.LoaiDocGia_DTO" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>LoaiDocGia_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.Login_DTO" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAABAAACAEA=</HashCode>
+      <FileName>Login_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.NhanVien_DTO" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAQACAAAAAAAABAAAAAAAAIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>NhanVien_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.PhieuMuonSach_DTO">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAAAAAAACAAAAAAAAAAAAAAAAAAAAwBAgAAEA=</HashCode>
+      <FileName>PhieuMuonSach_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.PhieuTraSach_DTO" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAgAAAAAkA=</HashCode>
+      <FileName>PhieuTraSach_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.QuyDinh_DTO" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQIEAoAKgCIAAAAACAAAAAAEAgCABAAAgAAAAAA=</HashCode>
+      <FileName>QuyDinh_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.Sach_DTO">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAIAAAAAAQAQAAAAAQAAAQAIRAAAAAAIgAAEA=</HashCode>
+      <FileName>Sach_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.TacGia_DTO" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>TacGia_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.TheLoaiSach_DTO" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEE=</HashCode>
+      <FileName>TheLoaiSach_DTO.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.My.MyApplication" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_DTO.My.MySettings" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABEAAAAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="QLTV_DTO.My.MySettingsProperty" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="QLTV_DTO.My.Resources.Resources" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

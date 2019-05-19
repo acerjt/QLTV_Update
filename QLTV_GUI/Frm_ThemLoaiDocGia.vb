@@ -104,6 +104,7 @@ Public Class Frm_ThemLoaiDocGia
             Frm_Information.m.Text = "Thêm loại độc giả không thành công."
             Frm_Information.ShowDialog()
             System.Console.WriteLine(result.SystemMessage)
+            Me.Close()
         End If
 
     End Sub

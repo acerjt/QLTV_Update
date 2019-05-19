@@ -29,10 +29,10 @@ Public Class Frm_Login
             Dim frmMain = New Frm_Main()
 
             frmMain.AutoSize = False
-            frmMain.Btn_Close.Location = New Point(645, 3)
-            frmMain.Size = New Size(900, 400)
+            frmMain.Btn_Close.Location = New Point(750, 3)
+            frmMain.Size = New Size(997, 400)
             '  frmMain.Pn_Admin.Show()
-            frmMain.BunifuSeparator1.Size = New Size(650, 35)
+            frmMain.BunifuSeparator1.Size = New Size(755, 35)
             frmMain.ShowDialog()
 
         Else

@@ -37,7 +37,7 @@ Public Class Frm_BaoCao
         rptd.Load("CrystalReport1.rpt")
         rptd.SetDataSource(ds.Tables("tblsachtratre"))
         CrystalReportViewer1.ReportSource = rptd
-        CrystalReportViewer1.Zoom(75)
+        CrystalReportViewer1.Zoom(100)
         CrystalReportViewer1.Refresh()
     End Sub
 
@@ -46,6 +46,6 @@ Public Class Frm_BaoCao
     End Sub
 
     Private Sub Frm_BaoCao_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Size = New Size(900, 607)
+        Me.Size = New Size(1000, 607)
     End Sub
 End Class

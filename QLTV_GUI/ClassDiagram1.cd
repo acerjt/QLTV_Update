@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QLTV_GUI.Frm_About" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEKAAABAAAACAAEACgAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frm_About.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_BaoCao" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAgEKAAAAQAAACBCUACgAAYAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Frm_BaoCao.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_BaoCaoDanhSachDocGia" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEKAAAAQAAACAAUACgABAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Frm_BaoCaoDanhSachDocGia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_BaoCaoSachTheoNhaXuatBan" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEKAAAAQAAACAAUICgAAAAAAABAAAAAAAIAA=</HashCode>
+      <FileName>Frm_BaoCaoSachTheoNhaXuatBan.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_Close" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAACCAAIQAAAACAAAACgAAEAAABIAAAAAACAAA=</HashCode>
+      <FileName>Frm_Close.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_DoiMatKhau" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBBAEKAgAAAAAACAAEACgIBAoQAIAAAAAAAAAEA=</HashCode>
+      <FileName>Frm_DoiMatKhau.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_Information" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAACCACAAAAAACAAAACgAAEAAABAgAAAAAAAAA=</HashCode>
+      <FileName>Frm_Information.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_LapBaoCaoThongKeMuonSachTheoTheLoai" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQBgAFqAAAAGAAAKgEERiQAQAMEAWAYCSAQAJAAA=</HashCode>
+      <FileName>Frm_LapBaoCaoThongKeMuonSachTheoTheLoai.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_LapBaoCaoThongKeSachTraTre" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CiAAQBgAEKAAAAGAAAKgEEQqgAAAMEAUAYASAQANAAA=</HashCode>
+      <FileName>Frm_LapBaoCaoThongKeSachTraTre.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_LapPhieuMuonSach" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEIABoAFKEiQAAAGAqWkEIGgIAQICA0QAJAAALEAEk=</HashCode>
+      <FileName>Frm_LapPhieuMuonSach.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_LapPhieuTraSach" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIABoAEKkiQAUAiBiCkECCwIAQICAkRAKIAALEC8g=</HashCode>
+      <FileName>Frm_LapPhieuTraSach.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_Login" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBBAEKAAAAAAAAGQAEgCgACAAAABAMAAAAAgAAA=</HashCode>
+      <FileName>Frm_Login.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_Main" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIIAZQoELAoZAQBAgDLBMKCgMwBAQKzGAAEKARgAFI=</HashCode>
+      <FileName>Frm_Main.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_QLDocGia" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJIAQBAEEKmiAABEECGQAGAGgAC4FkAcCACgAIADAAA=</HashCode>
+      <FileName>Frm_QLDocGia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_QLLoaiDocGia" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAABAIGKAAAAAEAACEAEICgAioAAAgAAAgAAgAAAA=</HashCode>
+      <FileName>Frm_QLLoaiDocGia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_QLSach" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAADAAFKBYABAEBACICVAGkAK41xAGAAAgAAAAggA=</HashCode>
+      <FileName>Frm_QLSach.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_QLTacGia" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAAEKAAACAEAACAImACgACQAAAECBAAAIoAAgQ=</HashCode>
+      <FileName>Frm_QLTacGia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_QLTheLoaiSach" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAAEKAAAAAEAACAAGAKgAGgAAIEAAAAAAoAEgA=</HashCode>
+      <FileName>Frm_QLTheLoaiSach.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_QuyDinh" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAJAEEKAIASACEACABmACgBAAIAAIAAAEEIACAeA=</HashCode>
+      <FileName>Frm_QuyDinh.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_Register" Collapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYBBAEKECIAABEAGAAEAGiAAQFABAAAAAAAAAAAA=</HashCode>
+      <FileName>Frm_Register.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_ThemDocGia" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQBAAEaEiACgAEAGAAEACgAAAUAAQAACAAAAAAgY=</HashCode>
+      <FileName>Frm_ThemDocGia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_ThemLoaiDocGia" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAIGKAAAACAAACAQEBCgAAAQAAYAAAAAAAAAoA=</HashCode>
+      <FileName>Frm_ThemLoaiDocGia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_ThemSach" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAABIAFKBAABAAAACAAEAClCAAABAQQAAgCQIEQoA=</HashCode>
+      <FileName>Frm_ThemSach.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_ThemTacGia" Collapsed="true">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEKEAACgAAACAAEACgAAQQBAcCAAAAAAAAoA=</HashCode>
+      <FileName>Frm_ThemTacGia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_ThemTheLoaiSach" Collapsed="true">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAEKAAAAgAAACAAEACkAEAQAAcAAAAAAAAAoA=</HashCode>
+      <FileName>Frm_ThemTheLoaiSach.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_TraCuuSach" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAEKAKAAAAAACAAEACwAAAIAAAAAQgAAAAAAo=</HashCode>
+      <FileName>Frm_TraCuuSach.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.Frm_XemThongTin" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQBAAEKECAAABFAGAAEACgIEAEABEAAAAAIAAAEA=</HashCode>
+      <FileName>Frm_XemThongTin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.My.MyApplication" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLTV_GUI.My.MySettings" Collapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAABEAAAAABAABAAAAAAABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="QLTV_GUI.My.MySettingsProperty" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="QLTV_GUI.My.Resources.Resources" Collapsed="true">
+    <Position X="6.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KhgAAADACKCgCSAIgAQBFSAIDSAEApAAwAgAgRCAAIQ=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

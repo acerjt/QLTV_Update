@@ -9,13 +9,10 @@
     'Private strTinhTrang As String
     'Private dateNgayDuKien As DateTime
 
+
     Public Sub New()
 
     End Sub
-
-
-
-
 
     Public Sub New(strMaPhieuMuonSach As String, strMaSach As String) ', strTinhTrang As String)
         'Me.strMaChiTietPhieuMuonSach = strMaChiTietPhieuMuonSach

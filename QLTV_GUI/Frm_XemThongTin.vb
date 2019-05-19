@@ -51,6 +51,16 @@ Public Class Frm_XemThongTin
             Dtp_NgayLap.Value = NhanVienDTO.NgayLap
             Dtp_NgaySinh.Value = NhanVienDTO.NgaySinh
         End If
+        If (NhanVienDTO.MaNhanVien = 1) Then
+            PictureBox1.Image = My.Resources.NV_1
+        ElseIf (NhanVienDTO.MaNhanVien = 2) Then
+            PictureBox1.Image = My.Resources.NV_2
+        ElseIf (NhanVienDTO.MaNhanVien = 3) Then
+            PictureBox1.Image = My.Resources.NV_3
+        End If
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
     End Sub
 End Class

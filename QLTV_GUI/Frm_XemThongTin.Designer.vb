@@ -39,9 +39,11 @@ Partial Class Frm_XemThongTin
         Me.Label3 = New System.Windows.Forms.Label()
         Me.BunifuSeparator1 = New Bunifu.Framework.UI.BunifuSeparator()
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.MetroLink1 = New MetroFramework.Controls.MetroLink()
         Me.Btn_Đong = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Btn_Close = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.MetroLink1 = New MetroFramework.Controls.MetroLink()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -49,7 +51,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Txt_HoVaTen.BorderColor = System.Drawing.Color.SeaGreen
         Me.Txt_HoVaTen.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_HoVaTen.Location = New System.Drawing.Point(357, 156)
+        Me.Txt_HoVaTen.Location = New System.Drawing.Point(565, 156)
         Me.Txt_HoVaTen.Multiline = True
         Me.Txt_HoVaTen.Name = "Txt_HoVaTen"
         Me.Txt_HoVaTen.Size = New System.Drawing.Size(282, 42)
@@ -59,7 +61,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Txt_MaThuThu.BorderColor = System.Drawing.Color.SeaGreen
         Me.Txt_MaThuThu.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_MaThuThu.Location = New System.Drawing.Point(357, 104)
+        Me.Txt_MaThuThu.Location = New System.Drawing.Point(565, 104)
         Me.Txt_MaThuThu.Multiline = True
         Me.Txt_MaThuThu.Name = "Txt_MaThuThu"
         Me.Txt_MaThuThu.ReadOnly = True
@@ -70,7 +72,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Txt_DiaChi.BorderColor = System.Drawing.Color.SeaGreen
         Me.Txt_DiaChi.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_DiaChi.Location = New System.Drawing.Point(357, 267)
+        Me.Txt_DiaChi.Location = New System.Drawing.Point(565, 267)
         Me.Txt_DiaChi.Multiline = True
         Me.Txt_DiaChi.Name = "Txt_DiaChi"
         Me.Txt_DiaChi.Size = New System.Drawing.Size(282, 42)
@@ -80,7 +82,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Txt_Email.BorderColor = System.Drawing.Color.SeaGreen
         Me.Txt_Email.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_Email.Location = New System.Drawing.Point(357, 319)
+        Me.Txt_Email.Location = New System.Drawing.Point(565, 319)
         Me.Txt_Email.Multiline = True
         Me.Txt_Email.Name = "Txt_Email"
         Me.Txt_Email.Size = New System.Drawing.Size(282, 42)
@@ -90,7 +92,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Label9.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label9.Location = New System.Drawing.Point(76, 370)
+        Me.Label9.Location = New System.Drawing.Point(284, 370)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(161, 42)
         Me.Label9.TabIndex = 140
@@ -101,7 +103,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Label8.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label8.Location = New System.Drawing.Point(76, 319)
+        Me.Label8.Location = New System.Drawing.Point(284, 319)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(161, 42)
         Me.Label8.TabIndex = 139
@@ -112,7 +114,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Label6.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label6.Location = New System.Drawing.Point(76, 267)
+        Me.Label6.Location = New System.Drawing.Point(284, 267)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(161, 42)
         Me.Label6.TabIndex = 138
@@ -123,7 +125,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Label5.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label5.Location = New System.Drawing.Point(76, 208)
+        Me.Label5.Location = New System.Drawing.Point(284, 208)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(161, 42)
         Me.Label5.TabIndex = 137
@@ -134,7 +136,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label4.Location = New System.Drawing.Point(76, 156)
+        Me.Label4.Location = New System.Drawing.Point(284, 156)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(189, 42)
         Me.Label4.TabIndex = 136
@@ -149,7 +151,7 @@ Partial Class Frm_XemThongTin
         Me.Dtp_NgayLap.ForeColor = System.Drawing.Color.White
         Me.Dtp_NgayLap.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.Dtp_NgayLap.FormatCustom = Nothing
-        Me.Dtp_NgayLap.Location = New System.Drawing.Point(357, 370)
+        Me.Dtp_NgayLap.Location = New System.Drawing.Point(565, 370)
         Me.Dtp_NgayLap.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Dtp_NgayLap.Name = "Dtp_NgayLap"
         Me.Dtp_NgayLap.Size = New System.Drawing.Size(282, 42)
@@ -164,7 +166,7 @@ Partial Class Frm_XemThongTin
         Me.Dtp_NgaySinh.ForeColor = System.Drawing.Color.White
         Me.Dtp_NgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.Dtp_NgaySinh.FormatCustom = Nothing
-        Me.Dtp_NgaySinh.Location = New System.Drawing.Point(357, 208)
+        Me.Dtp_NgaySinh.Location = New System.Drawing.Point(565, 208)
         Me.Dtp_NgaySinh.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Dtp_NgaySinh.Name = "Dtp_NgaySinh"
         Me.Dtp_NgaySinh.Size = New System.Drawing.Size(282, 42)
@@ -175,7 +177,7 @@ Partial Class Frm_XemThongTin
         '
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.SeaGreen
-        Me.Label1.Location = New System.Drawing.Point(76, 104)
+        Me.Label1.Location = New System.Drawing.Point(284, 104)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(189, 42)
         Me.Label1.TabIndex = 135
@@ -189,7 +191,7 @@ Partial Class Frm_XemThongTin
         Me.Label3.ForeColor = System.Drawing.Color.SeaGreen
         Me.Label3.Location = New System.Drawing.Point(-12, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(376, 60)
+        Me.Label3.Size = New System.Drawing.Size(441, 70)
         Me.Label3.TabIndex = 132
         Me.Label3.Text = "Thông tin cá nhân"
         '
@@ -201,7 +203,7 @@ Partial Class Frm_XemThongTin
         Me.BunifuSeparator1.Location = New System.Drawing.Point(-17, 56)
         Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(722, 51)
+        Me.BunifuSeparator1.Size = New System.Drawing.Size(961, 51)
         Me.BunifuSeparator1.TabIndex = 133
         Me.BunifuSeparator1.Transparency = 255
         Me.BunifuSeparator1.Vertical = False
@@ -210,6 +212,29 @@ Partial Class Frm_XemThongTin
         '
         Me.BunifuElipse1.ElipseRadius = 20
         Me.BunifuElipse1.TargetControl = Me
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.InitialImage = Nothing
+        Me.PictureBox1.Location = New System.Drawing.Point(46, 104)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(174, 191)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 152
+        Me.PictureBox1.TabStop = False
+        '
+        'MetroLink1
+        '
+        Me.MetroLink1.BackColor = System.Drawing.Color.Red
+        Me.MetroLink1.FontSize = MetroFramework.MetroLinkSize.Tall
+        Me.MetroLink1.ForeColor = System.Drawing.Color.Red
+        Me.MetroLink1.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
+        Me.MetroLink1.Location = New System.Drawing.Point(290, 426)
+        Me.MetroLink1.Name = "MetroLink1"
+        Me.MetroLink1.Size = New System.Drawing.Size(585, 47)
+        Me.MetroLink1.TabIndex = 151
+        Me.MetroLink1.Text = "Mật khẩu có giá trị 100 ngày. Hãy đổi mật khẩu mới."
+        Me.MetroLink1.UseSelectable = True
         '
         'Btn_Đong
         '
@@ -232,7 +257,7 @@ Partial Class Frm_XemThongTin
         Me.Btn_Đong.IconVisible = False
         Me.Btn_Đong.IconZoom = 90.0R
         Me.Btn_Đong.IsTab = False
-        Me.Btn_Đong.Location = New System.Drawing.Point(315, 481)
+        Me.Btn_Đong.Location = New System.Drawing.Point(351, 481)
         Me.Btn_Đong.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Btn_Đong.Name = "Btn_Đong"
         Me.Btn_Đong.Normalcolor = System.Drawing.Color.SeaGreen
@@ -252,7 +277,7 @@ Partial Class Frm_XemThongTin
         Me.Btn_Close.BackColor = System.Drawing.Color.Transparent
         Me.Btn_Close.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
         Me.Btn_Close.ImageActive = Nothing
-        Me.Btn_Close.Location = New System.Drawing.Point(666, 12)
+        Me.Btn_Close.Location = New System.Drawing.Point(889, 12)
         Me.Btn_Close.Name = "Btn_Close"
         Me.Btn_Close.Size = New System.Drawing.Size(55, 46)
         Me.Btn_Close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -260,24 +285,12 @@ Partial Class Frm_XemThongTin
         Me.Btn_Close.TabStop = False
         Me.Btn_Close.Zoom = 10
         '
-        'MetroLink1
-        '
-        Me.MetroLink1.BackColor = System.Drawing.Color.Red
-        Me.MetroLink1.FontSize = MetroFramework.MetroLinkSize.Tall
-        Me.MetroLink1.ForeColor = System.Drawing.Color.Red
-        Me.MetroLink1.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
-        Me.MetroLink1.Location = New System.Drawing.Point(82, 426)
-        Me.MetroLink1.Name = "MetroLink1"
-        Me.MetroLink1.Size = New System.Drawing.Size(585, 47)
-        Me.MetroLink1.TabIndex = 151
-        Me.MetroLink1.Text = "Mật khẩu có giá trị 100 ngày. Hãy đổi mật khẩu mới."
-        Me.MetroLink1.UseSelectable = True
-        '
         'Frm_XemThongTin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(760, 565)
+        Me.ClientSize = New System.Drawing.Size(1013, 565)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MetroLink1)
         Me.Controls.Add(Me.Txt_HoVaTen)
         Me.Controls.Add(Me.Txt_MaThuThu)
@@ -299,6 +312,7 @@ Partial Class Frm_XemThongTin
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_XemThongTin"
         Me.Text = "Frm_XemThongTin"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -322,4 +336,5 @@ Partial Class Frm_XemThongTin
     Friend WithEvents BunifuSeparator1 As Bunifu.Framework.UI.BunifuSeparator
     Friend WithEvents BunifuElipse1 As Bunifu.Framework.UI.BunifuElipse
     Friend WithEvents MetroLink1 As MetroFramework.Controls.MetroLink
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

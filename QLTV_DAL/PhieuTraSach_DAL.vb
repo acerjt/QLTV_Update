@@ -203,37 +203,7 @@ Public Class PhieuTraSach_DAL
         Return New Result(True) ' thanh cong
     End Function
 
-    'Public Function update(pdg As PhieuMuonSach_DTO) As Result
-
-    '    Dim query As String = String.Empty
-    '    query &= " UPDATE [tblLoaiDocGia] SET"
-    '    query &= " [tenloaidocgia] = @tenloaidocgia "
-    '    query &= "WHERE "
-    '    query &= " [maloaidocgia] = @maloaidocgia "
-
-    '    Using conn As New SqlConnection(connectionString)
-    '        Using comm As New SqlCommand()
-    '            With comm
-    '                .Connection = conn
-    '                .CommandType = CommandType.Text
-    '                .CommandText = query
-    '                .Parameters.AddWithValue("@maloaidocgia", ldg.MaLoaiDocGia)
-    '                .Parameters.AddWithValue("@tenloaidocgia", ldg.TenLoaiDocGia)
-    '            End With
-    '            Try
-    '                conn.Open()
-    '                comm.ExecuteNonQuery()
-    '            Catch ex As Exception
-    '                Console.WriteLine(ex.StackTrace)
-    '                conn.Close()
-    '                ' them that bai!!!
-    '                Return New Result(False, "Cập nhật Độc Giả không thành công", ex.StackTrace)
-    '            End Try
-    '        End Using
-    '    End Using
-    '    Return New Result(True) ' thanh cong
-    'End Function
-
+    
 
     Public Function selectALL(ByRef listPhieuTraSach As List(Of PhieuTraSach_DTO)) As Result
 

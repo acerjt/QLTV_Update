@@ -236,4 +236,11 @@ Public Class Frm_Main
     Private Sub Pn_Admin_Paint(sender As Object, e As PaintEventArgs) Handles Pn_Admin.Paint
 
     End Sub
+
+    Private Sub MetroTile1_Click(sender As Object, e As EventArgs) Handles MetroTile1.Click
+        Hide()
+        Dim frm_BaoCaodanhsachdocgia = New Frm_BaoCaoDanhSachDocGia()
+        frm_BaoCaodanhsachdocgia.ShowDialog()
+        Show()
+    End Sub
 End Class

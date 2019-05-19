@@ -7,7 +7,6 @@ Public Class PhieuMuonSach_DTO
     Private iMaNhanVien As Integer
 
     'Private lsCTPMS As List(Of ChiTietPhieuMuonSach_DTO)
-
     Public Sub New()
 
     End Sub

@@ -439,3 +439,4 @@ C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\CrystalDecision
 C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\bin\Debug\stdole.dll
 C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_BaoCao.resources
 C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_BaoCaoSachTheoNhaXuatBan.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_GUI\obj\Debug\QLTV_GUI.Frm_BaoCaoDanhSachDocGia.resources

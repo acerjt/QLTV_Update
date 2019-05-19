@@ -6,7 +6,7 @@ Public Class Frm_BaoCaoSachTheoNhaXuatBan
     Private cmd As SqlCommand
 
     Private Sub Frm_BaoCaoSachTheoNhaXuatBan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Size = New Size(900, 607)
+        Me.Size = New Size(1000, 607)
         Dim query As String = String.Empty
 
         query &= " select * from [tblsach],[tblTheLoaiSach],[tblTacGia]"
@@ -31,11 +31,15 @@ Public Class Frm_BaoCaoSachTheoNhaXuatBan
         rptd.Load("CrystalReport2.rpt")
         rptd.SetDataSource(ds.Tables("tblsach"))
         CrystalReportViewer2.ReportSource = rptd
-        CrystalReportViewer2.Zoom(75)
+        CrystalReportViewer2.Zoom(100)
         CrystalReportViewer2.Refresh()
     End Sub
 
     Private Sub Btn_Close_Click(sender As Object, e As EventArgs) Handles Btn_Close.Click
         Me.Close()
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
     End Sub
 End Class

@@ -131,7 +131,7 @@ Public Class Frm_QLLoaiDocGia
                     Dim frm_Infor = New Frm_Information()
                     Frm_Information.m.Text = "Cập nhật loại độc giả không thành công."
                     Frm_Information.ShowDialog()
-                    'MessageBox.Show("Cập nhật loại độc giả không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    Me.Close()
                     System.Console.WriteLine(result.SystemMessage)
                 End If
             Catch ex As Exception
@@ -184,6 +184,7 @@ Public Class Frm_QLLoaiDocGia
                             Dim frm_Infor = New Frm_Information()
                             Frm_Information.m.Text = "Xoá loại độc giả không thành công."
                             Frm_Information.ShowDialog()
+                            Me.Close()
                             'MessageBox.Show("Xóa Loại độc giả không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                             System.Console.WriteLine(result.SystemMessage)
                         End If

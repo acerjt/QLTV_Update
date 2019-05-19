@@ -25,6 +25,8 @@ Public Class Frm_QLSach
             Return
         End If
 
+
+
         Cb_TheLoaiSach.DataSource = New BindingSource(listTheLoaiSach, String.Empty)
         Cb_TheLoaiSach.DisplayMember = "TenTheLoaiSach"
         Cb_TheLoaiSach.ValueMember = "MaTheLoaiSach"
@@ -60,6 +62,7 @@ Public Class Frm_QLSach
         If (result.FlagResult = False) Then
             frm_Infor.m.Text = "Lấy danh sách Sách theo Thể Loại không thành công."
             frm_Infor.ShowDialog()
+            Me.Close()
             System.Console.WriteLine(result.SystemMessage)
             Return
         End If
@@ -210,7 +213,7 @@ Public Class Frm_QLSach
         Dim result As Result
         result = SachBUS.selectALL_ByTacGia(MaTacGia, listSach)
         If (result.FlagResult = False) Then
-            frm_Infor.m.Text = "Lấy danh sách Sách theo Tên Tác Gi không thành công."
+            frm_Infor.m.Text = "Lấy danh sách Sách theo Tên Tác Giả không thành công."
             frm_Infor.ShowDialog()
             System.Console.WriteLine(result.SystemMessage)
             Return

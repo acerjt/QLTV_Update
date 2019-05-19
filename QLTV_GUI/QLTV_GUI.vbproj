@@ -124,6 +124,12 @@
     <Compile Include="Frm_BaoCao.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Frm_BaoCaoDanhSachDocGia.Designer.vb">
+      <DependentUpon>Frm_BaoCaoDanhSachDocGia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_BaoCaoDanhSachDocGia.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frm_BaoCaoSachTheoNhaXuatBan.Designer.vb">
       <DependentUpon>Frm_BaoCaoSachTheoNhaXuatBan.vb</DependentUpon>
     </Compile>
@@ -295,6 +301,9 @@
     <EmbeddedResource Include="Frm_BaoCao.resx">
       <DependentUpon>Frm_BaoCao.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_BaoCaoDanhSachDocGia.resx">
+      <DependentUpon>Frm_BaoCaoDanhSachDocGia.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_BaoCaoSachTheoNhaXuatBan.resx">
       <DependentUpon>Frm_BaoCaoSachTheoNhaXuatBan.vb</DependentUpon>
     </EmbeddedResource>
@@ -378,6 +387,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -552,6 +562,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-add-user-group-woman-man-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\NV_1.jpg" />
+    <Content Include="Resources\NV_2.jpg" />
+    <Content Include="Resources\NV_3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

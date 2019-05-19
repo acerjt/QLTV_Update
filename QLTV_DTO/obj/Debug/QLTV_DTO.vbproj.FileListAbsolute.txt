@@ -77,3 +77,13 @@ C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.vbpro
 C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.exe
 C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.xml
 C:\Users\ASUS\Desktop\QLTV_upgarde\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\bin\Debug\QLTV_DTO.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\bin\Debug\QLTV_DTO.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\bin\Debug\QLTV_DTO.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.vbprojAssemblyReference.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.Resources.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.GenerateResource.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.vbproj.CoreCompileInputs.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\QLTV_DTO\obj\Debug\QLTV_DTO.pdb

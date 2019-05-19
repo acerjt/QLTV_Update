@@ -23,9 +23,9 @@ Partial Class Frm_Main
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation3 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation2 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_Main))
-        Dim Animation4 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Me.Pn_Menu = New System.Windows.Forms.Panel()
         Me.Btn_XemThongTin = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.btn_GioiThieu = New Bunifu.Framework.UI.BunifuFlatButton()
@@ -36,6 +36,7 @@ Partial Class Frm_Main
         Me.PanelAnimator = New BunifuAnimatorNS.BunifuTransition(Me.components)
         Me.Pn_Main = New System.Windows.Forms.Panel()
         Me.Pn_Admin = New System.Windows.Forms.Panel()
+        Me.MetroTile1 = New MetroFramework.Controls.MetroTile()
         Me.Tile_TaoTK = New MetroFramework.Controls.MetroTile()
         Me.Tile_BaoCaoTheoTheLoai = New MetroFramework.Controls.MetroTile()
         Me.Tile_BaoCaoSachTraTre = New MetroFramework.Controls.MetroTile()
@@ -293,22 +294,22 @@ Partial Class Frm_Main
         '
         Me.PanelAnimator.AnimationType = BunifuAnimatorNS.AnimationType.Mosaic
         Me.PanelAnimator.Cursor = Nothing
-        Animation3.AnimateOnlyDifferences = True
-        Animation3.BlindCoeff = CType(resources.GetObject("Animation3.BlindCoeff"), System.Drawing.PointF)
-        Animation3.LeafCoeff = 0!
-        Animation3.MaxTime = 1.0!
-        Animation3.MinTime = 0!
-        Animation3.MosaicCoeff = CType(resources.GetObject("Animation3.MosaicCoeff"), System.Drawing.PointF)
-        Animation3.MosaicShift = CType(resources.GetObject("Animation3.MosaicShift"), System.Drawing.PointF)
-        Animation3.MosaicSize = 20
-        Animation3.Padding = New System.Windows.Forms.Padding(30)
-        Animation3.RotateCoeff = 0!
-        Animation3.RotateLimit = 0!
-        Animation3.ScaleCoeff = CType(resources.GetObject("Animation3.ScaleCoeff"), System.Drawing.PointF)
-        Animation3.SlideCoeff = CType(resources.GetObject("Animation3.SlideCoeff"), System.Drawing.PointF)
-        Animation3.TimeCoeff = 0!
-        Animation3.TransparencyCoeff = 0!
-        Me.PanelAnimator.DefaultAnimation = Animation3
+        Animation2.AnimateOnlyDifferences = True
+        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
+        Animation2.LeafCoeff = 0!
+        Animation2.MaxTime = 1.0!
+        Animation2.MinTime = 0!
+        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
+        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
+        Animation2.MosaicSize = 20
+        Animation2.Padding = New System.Windows.Forms.Padding(30)
+        Animation2.RotateCoeff = 0!
+        Animation2.RotateLimit = 0!
+        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
+        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
+        Animation2.TimeCoeff = 0!
+        Animation2.TransparencyCoeff = 0!
+        Me.PanelAnimator.DefaultAnimation = Animation2
         '
         'Pn_Main
         '
@@ -341,6 +342,7 @@ Partial Class Frm_Main
         '
         'Pn_Admin
         '
+        Me.Pn_Admin.Controls.Add(Me.MetroTile1)
         Me.Pn_Admin.Controls.Add(Me.Tile_TaoTK)
         Me.Pn_Admin.Controls.Add(Me.Tile_BaoCaoTheoTheLoai)
         Me.Pn_Admin.Controls.Add(Me.Tile_BaoCaoSachTraTre)
@@ -350,8 +352,31 @@ Partial Class Frm_Main
         Me.Pn_Admin.Location = New System.Drawing.Point(6, 88)
         Me.Pn_Admin.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Pn_Admin.Name = "Pn_Admin"
-        Me.Pn_Admin.Size = New System.Drawing.Size(1270, 534)
+        Me.Pn_Admin.Size = New System.Drawing.Size(1357, 534)
         Me.Pn_Admin.TabIndex = 61
+        '
+        'MetroTile1
+        '
+        Me.MetroTile1.ActiveControl = Nothing
+        Me.MetroTile1.BackColor = System.Drawing.Color.SeaGreen
+        Me.PanelAnimator1.SetDecoration(Me.MetroTile1, BunifuAnimatorNS.DecorationType.None)
+        Me.PanelAnimator.SetDecoration(Me.MetroTile1, BunifuAnimatorNS.DecorationType.None)
+        Me.MetroTile1.ForeColor = System.Drawing.Color.White
+        Me.MetroTile1.Location = New System.Drawing.Point(770, 57)
+        Me.MetroTile1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroTile1.Name = "MetroTile1"
+        Me.MetroTile1.Size = New System.Drawing.Size(216, 382)
+        Me.MetroTile1.TabIndex = 62
+        Me.MetroTile1.Text = "Báo cáo danh sách độc giả"
+        Me.MetroTile1.TileImage = CType(resources.GetObject("MetroTile1.TileImage"), System.Drawing.Image)
+        Me.MetroTile1.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.MetroTile1.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
+        Me.MetroTile1.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
+        Me.MetroTile1.UseCustomBackColor = True
+        Me.MetroTile1.UseCustomForeColor = True
+        Me.MetroTile1.UseSelectable = True
+        Me.MetroTile1.UseStyleColors = True
+        Me.MetroTile1.UseTileImage = True
         '
         'Tile_TaoTK
         '
@@ -383,7 +408,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_BaoCaoTheoTheLoai, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_BaoCaoTheoTheLoai, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_BaoCaoTheoTheLoai.ForeColor = System.Drawing.Color.White
-        Me.Tile_BaoCaoTheoTheLoai.Location = New System.Drawing.Point(306, 57)
+        Me.Tile_BaoCaoTheoTheLoai.Location = New System.Drawing.Point(289, 57)
         Me.Tile_BaoCaoTheoTheLoai.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_BaoCaoTheoTheLoai.Name = "Tile_BaoCaoTheoTheLoai"
         Me.Tile_BaoCaoTheoTheLoai.Size = New System.Drawing.Size(438, 196)
@@ -406,7 +431,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_BaoCaoSachTraTre, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_BaoCaoSachTraTre.ForeColor = System.Drawing.Color.White
-        Me.Tile_BaoCaoSachTraTre.Location = New System.Drawing.Point(306, 263)
+        Me.Tile_BaoCaoSachTraTre.Location = New System.Drawing.Point(290, 263)
         Me.Tile_BaoCaoSachTraTre.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_BaoCaoSachTraTre.Name = "Tile_BaoCaoSachTraTre"
         Me.Tile_BaoCaoSachTraTre.Size = New System.Drawing.Size(438, 182)
@@ -429,7 +454,7 @@ Partial Class Frm_Main
         Me.PanelAnimator1.SetDecoration(Me.Tile_QuyDinh, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me.Tile_QuyDinh, BunifuAnimatorNS.DecorationType.None)
         Me.Tile_QuyDinh.ForeColor = System.Drawing.Color.White
-        Me.Tile_QuyDinh.Location = New System.Drawing.Point(799, 57)
+        Me.Tile_QuyDinh.Location = New System.Drawing.Point(1012, 57)
         Me.Tile_QuyDinh.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Tile_QuyDinh.Name = "Tile_QuyDinh"
         Me.Tile_QuyDinh.Size = New System.Drawing.Size(216, 382)
@@ -798,22 +823,22 @@ Partial Class Frm_Main
         '
         Me.PanelAnimator1.AnimationType = BunifuAnimatorNS.AnimationType.Leaf
         Me.PanelAnimator1.Cursor = Nothing
-        Animation4.AnimateOnlyDifferences = True
-        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), System.Drawing.PointF)
-        Animation4.LeafCoeff = 1.0!
-        Animation4.MaxTime = 1.0!
-        Animation4.MinTime = 0!
-        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), System.Drawing.PointF)
-        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), System.Drawing.PointF)
-        Animation4.MosaicSize = 0
-        Animation4.Padding = New System.Windows.Forms.Padding(0)
-        Animation4.RotateCoeff = 0!
-        Animation4.RotateLimit = 0!
-        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), System.Drawing.PointF)
-        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), System.Drawing.PointF)
-        Animation4.TimeCoeff = 0!
-        Animation4.TransparencyCoeff = 0!
-        Me.PanelAnimator1.DefaultAnimation = Animation4
+        Animation1.AnimateOnlyDifferences = True
+        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
+        Animation1.LeafCoeff = 1.0!
+        Animation1.MaxTime = 1.0!
+        Animation1.MinTime = 0!
+        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
+        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
+        Animation1.MosaicSize = 0
+        Animation1.Padding = New System.Windows.Forms.Padding(0)
+        Animation1.RotateCoeff = 0!
+        Animation1.RotateLimit = 0!
+        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
+        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
+        Animation1.TimeCoeff = 0!
+        Animation1.TransparencyCoeff = 0!
+        Me.PanelAnimator1.DefaultAnimation = Animation1
         Me.PanelAnimator1.Interval = 50
         Me.PanelAnimator1.MaxAnimationTime = 5000
         Me.PanelAnimator1.TimeStep = 0.07!
@@ -885,4 +910,5 @@ Partial Class Frm_Main
     Friend WithEvents Btn_XemThongTin As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents Pn_Admin As Panel
     Private WithEvents Tile_TaoTK As MetroFramework.Controls.MetroTile
+    Private WithEvents MetroTile1 As MetroFramework.Controls.MetroTile
 End Class

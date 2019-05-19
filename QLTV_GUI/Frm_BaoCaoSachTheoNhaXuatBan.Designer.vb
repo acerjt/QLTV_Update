@@ -38,9 +38,9 @@ Partial Class Frm_BaoCaoSachTheoNhaXuatBan
         Me.Label3.ForeColor = System.Drawing.Color.SeaGreen
         Me.Label3.Location = New System.Drawing.Point(4, 2)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(831, 70)
+        Me.Label3.Size = New System.Drawing.Size(791, 70)
         Me.Label3.TabIndex = 146
-        Me.Label3.Text = "Báo Cáo Sách Trả Trễ Theo Thể Loại"
+        Me.Label3.Text = "Báo Cáo Sách Theo Nhà Xuất Bản"
         '
         'BunifuSeparator1
         '
@@ -50,7 +50,7 @@ Partial Class Frm_BaoCaoSachTheoNhaXuatBan
         Me.BunifuSeparator1.Location = New System.Drawing.Point(-1, 54)
         Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(1331, 51)
+        Me.BunifuSeparator1.Size = New System.Drawing.Size(1436, 51)
         Me.BunifuSeparator1.TabIndex = 147
         Me.BunifuSeparator1.Transparency = 255
         Me.BunifuSeparator1.Vertical = False
@@ -62,7 +62,7 @@ Partial Class Frm_BaoCaoSachTheoNhaXuatBan
         Me.CrystalReportViewer2.Cursor = System.Windows.Forms.Cursors.Default
         Me.CrystalReportViewer2.Location = New System.Drawing.Point(108, 113)
         Me.CrystalReportViewer2.Name = "CrystalReportViewer2"
-        Me.CrystalReportViewer2.Size = New System.Drawing.Size(1164, 852)
+        Me.CrystalReportViewer2.Size = New System.Drawing.Size(1289, 852)
         Me.CrystalReportViewer2.TabIndex = 143
         Me.CrystalReportViewer2.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
         '
@@ -76,7 +76,7 @@ Partial Class Frm_BaoCaoSachTheoNhaXuatBan
         Me.Btn_Close.BackColor = System.Drawing.Color.Transparent
         Me.Btn_Close.Image = Global.QLTV_GUI.My.Resources.Resources.btnclose
         Me.Btn_Close.ImageActive = Nothing
-        Me.Btn_Close.Location = New System.Drawing.Point(1291, 11)
+        Me.Btn_Close.Location = New System.Drawing.Point(1363, 11)
         Me.Btn_Close.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_Close.Name = "Btn_Close"
         Me.Btn_Close.Size = New System.Drawing.Size(55, 48)
@@ -89,7 +89,8 @@ Partial Class Frm_BaoCaoSachTheoNhaXuatBan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1367, 1001)
+        Me.AutoSize = True
+        Me.ClientSize = New System.Drawing.Size(1467, 1041)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.BunifuSeparator1)
         Me.Controls.Add(Me.CrystalReportViewer2)

@@ -66,3 +66,13 @@ C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\Utility\obj\Debug\Utility.vbproj.Core
 C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\Utility\obj\Debug\Utility.exe
 C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\Utility\obj\Debug\Utility.xml
 C:\Users\DungNgoc\Desktop\QLTV\QLTV_Update\Utility\obj\Debug\Utility.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\bin\Debug\Utility.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\bin\Debug\Utility.pdb
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\bin\Debug\Utility.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\obj\Debug\Utility.vbprojAssemblyReference.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\obj\Debug\Utility.Resources.resources
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\obj\Debug\Utility.vbproj.GenerateResource.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\obj\Debug\Utility.vbproj.CoreCompileInputs.cache
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\obj\Debug\Utility.exe
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\obj\Debug\Utility.xml
+C:\Users\DungNgoc\Desktop\QLTV(1)\QLTV_Update\Utility\obj\Debug\Utility.pdb
