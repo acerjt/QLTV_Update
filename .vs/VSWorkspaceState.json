@@ -3,8 +3,9 @@
     "",
     "\\QLTV_BUS",
     "\\QLTV_DAL",
+    "\\QLTV_DAL\\My Project",
     "\\QLTV_DTO"
   ],
-  "SelectedNode": "\\QLTV_DAL\\DocGia_DAL.vb",
+  "SelectedNode": "\\QLTV_DAL\\ChiTietPhieuTraSach_DAL.vb",
   "PreviewInSolutionExplorer": false
 }

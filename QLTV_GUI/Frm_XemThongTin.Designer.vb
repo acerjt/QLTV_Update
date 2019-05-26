@@ -43,6 +43,7 @@ Partial Class Frm_XemThongTin
         Me.MetroLink1 = New MetroFramework.Controls.MetroLink()
         Me.Btn_Đong = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Btn_Close = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -52,9 +53,9 @@ Partial Class Frm_XemThongTin
         Me.Txt_HoVaTen.BorderColor = System.Drawing.Color.SeaGreen
         Me.Txt_HoVaTen.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Txt_HoVaTen.Location = New System.Drawing.Point(565, 156)
-        Me.Txt_HoVaTen.Multiline = True
         Me.Txt_HoVaTen.Name = "Txt_HoVaTen"
-        Me.Txt_HoVaTen.Size = New System.Drawing.Size(282, 42)
+        Me.Txt_HoVaTen.ReadOnly = True
+        Me.Txt_HoVaTen.Size = New System.Drawing.Size(282, 35)
         Me.Txt_HoVaTen.TabIndex = 146
         '
         'Txt_MaThuThu
@@ -62,10 +63,9 @@ Partial Class Frm_XemThongTin
         Me.Txt_MaThuThu.BorderColor = System.Drawing.Color.SeaGreen
         Me.Txt_MaThuThu.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Txt_MaThuThu.Location = New System.Drawing.Point(565, 104)
-        Me.Txt_MaThuThu.Multiline = True
         Me.Txt_MaThuThu.Name = "Txt_MaThuThu"
         Me.Txt_MaThuThu.ReadOnly = True
-        Me.Txt_MaThuThu.Size = New System.Drawing.Size(282, 42)
+        Me.Txt_MaThuThu.Size = New System.Drawing.Size(282, 35)
         Me.Txt_MaThuThu.TabIndex = 145
         '
         'Txt_DiaChi
@@ -215,6 +215,7 @@ Partial Class Frm_XemThongTin
         '
         'PictureBox1
         '
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.InitialImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(46, 104)
         Me.PictureBox1.Name = "PictureBox1"
@@ -285,10 +286,15 @@ Partial Class Frm_XemThongTin
         Me.Btn_Close.TabStop = False
         Me.Btn_Close.Zoom = 10
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
         'Frm_XemThongTin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(1013, 565)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MetroLink1)
@@ -311,6 +317,7 @@ Partial Class Frm_XemThongTin
         Me.Font = New System.Drawing.Font("Times New Roman", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_XemThongTin"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Frm_XemThongTin"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Btn_Close, System.ComponentModel.ISupportInitialize).EndInit()
@@ -337,4 +344,5 @@ Partial Class Frm_XemThongTin
     Friend WithEvents BunifuElipse1 As Bunifu.Framework.UI.BunifuElipse
     Friend WithEvents MetroLink1 As MetroFramework.Controls.MetroLink
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class

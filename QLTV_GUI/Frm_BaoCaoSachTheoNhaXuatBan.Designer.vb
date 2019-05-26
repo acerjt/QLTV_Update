@@ -60,9 +60,9 @@ Partial Class Frm_BaoCaoSachTheoNhaXuatBan
         Me.CrystalReportViewer2.ActiveViewIndex = -1
         Me.CrystalReportViewer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CrystalReportViewer2.Cursor = System.Windows.Forms.Cursors.Default
-        Me.CrystalReportViewer2.Location = New System.Drawing.Point(108, 113)
+        Me.CrystalReportViewer2.Location = New System.Drawing.Point(39, 113)
         Me.CrystalReportViewer2.Name = "CrystalReportViewer2"
-        Me.CrystalReportViewer2.Size = New System.Drawing.Size(1289, 852)
+        Me.CrystalReportViewer2.Size = New System.Drawing.Size(1396, 852)
         Me.CrystalReportViewer2.TabIndex = 143
         Me.CrystalReportViewer2.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
         '
